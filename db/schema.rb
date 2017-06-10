@@ -30,10 +30,4 @@ ActiveRecord::Schema.define(version: 20170609232543) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "sections", id: :serial, force: :cascade do |t|
-    t.text "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
 end
