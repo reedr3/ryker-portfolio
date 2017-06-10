@@ -1,3 +1,7 @@
 <h1>home page</h1>
 
-<p> <%= @categories[0].title %> </p>
+<ul>
+  <% @categories.each do |category| %>
+    <li> <%= link_to category.title, category_path(category) %> </li>
+  <% end %>
+</ul>
