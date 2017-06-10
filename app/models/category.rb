@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-  :has_many blocks
+  has_many :blocks
 end
