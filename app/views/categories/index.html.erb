@@ -1,7 +1,3 @@
-<h1>home page</h1>
+<%= react_component 'Categories', {data: @categories} %>
 
-<ul>
-  <% @categories.each do |category| %>
-    <li> <%= link_to category.title, category_path(category) %> </li>
-  <% end %>
-</ul>
+<h1>home page</h1>
