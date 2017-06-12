@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+#logo {
+  width: 15%;
+  height: 100px;
+  float: left;
+}
+
+#cover {
+  width: 80%;
+  height: 150px;
+  float: right;
+}
+
+#categories {
+  width: 19%;
+  float: left;
+  margin-top: 50px;
+  border: 1px solid blue;
+}
+
+#blocks {
+  width: 79%;
+  float: right;
+  border: 1px solid red;
+}
