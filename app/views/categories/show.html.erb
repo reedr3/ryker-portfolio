@@ -1,9 +1,5 @@
+<%= react_component 'Logo', {data: "imageurl"} %>
+<%= react_component 'Cover', {data: "imageurl"} %>
+
 <%= react_component 'Categories', {data: @categories} %>
-
-<p>this is a category page</p>
-
-<ul>
-  <% @blocks.each do |block| %>
-    <li> <%= block.header %> </li>
-  <% end %>
-</ul>
+<%= react_component 'Blocks', {data: @blocks} %>
