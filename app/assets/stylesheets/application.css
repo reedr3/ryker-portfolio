@@ -15,17 +15,41 @@
  */
 
 
+p, li {
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  border-radius: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding-bottom: 20px;
+  font-size: 2em;
+}
+
+.icon {
+  display: inline-block;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
 
 #logo {
   width: 15%;
-  height: 100px;
+  height: 130px;
   float: left;
   position: fixed;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 #cover {
   width: 80%;
-  height: 150px;
+  height: 200px;
   float: right;
 }
 
@@ -40,21 +64,69 @@
 #blocks {
   width: 79%;
   float: right;
+  margin-top: 20px;
+  padding: 0px;
   border: 1px solid red;
 }
 
+#blocks ul {
+  margin: 0px;
+  padding: 0px;
+}
+
 #block {
-  width: 90%;
+  width: 95%;
   height: 300px;
+  padding: 15px;
   border: 1px solid green;
 }
 
 #block img {
   width: 300px;
   height: 200px;
-  float: right;
 }
 
-#block p {
-  text-align: right;
+#header {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#description {
+  border: 1px solid purple;
+}
+
+
+
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+}
+
+/* Add a hover effect */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+.fa-linkedin {
+    margin-left: 20px;
+    background: #0077B5;
+    color: white;
+}
+
+.fa-github {
+    background: #333;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }
