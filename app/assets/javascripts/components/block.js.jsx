@@ -13,9 +13,9 @@ var Block = React.createClass({
 
     return (
       <div id="block">
-        <p style={textAlignment}>{this.state.block.header}</p>
+        <p id= "header" style={textAlignment}>{this.state.block.header}</p>
         <img style={imgAlignment} src={this.state.block.image} />
-        <p style={textAlignment}>{this.state.block.description}</p>
+        <p id="description" style={textAlignment}>{this.state.block.description}</p>
       </div>
     );
   }

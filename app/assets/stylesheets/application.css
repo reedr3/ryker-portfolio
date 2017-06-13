@@ -35,18 +35,21 @@ li {
 .icon {
   display: inline-block;
   margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 #logo {
   width: 15%;
-  height: 100px;
+  height: 130px;
   float: left;
   position: fixed;
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 #cover {
   width: 80%;
-  height: 150px;
+  height: 200px;
   float: right;
 }
 
@@ -61,23 +64,35 @@ li {
 #blocks {
   width: 79%;
   float: right;
+  margin-top: 20px;
+  padding: 0px;
   border: 1px solid red;
 }
 
+#blocks ul {
+  margin: 0px;
+  padding: 0px;
+}
+
 #block {
-  width: 90%;
+  width: 95%;
   height: 300px;
+  padding: 15px;
   border: 1px solid green;
 }
 
 #block img {
   width: 300px;
   height: 200px;
-  float: right;
 }
 
-#block p {
-  text-align: right;
+#header {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#description {
+  border: 1px solid purple;
 }
 
 
