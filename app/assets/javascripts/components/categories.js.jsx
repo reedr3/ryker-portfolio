@@ -12,6 +12,7 @@ var Categories = React.createClass({
             }.bind(this))}
         </ul>
         <p>github and linkedin and fb etc links go here</p>
+        <a href="https://www.facebook.com/rebecca.reed.5667" className="fa fa-facebook"></a>
       </div>
     );
   }
