@@ -15,6 +15,10 @@
  */
 
 
+body {
+  background-color: #2a2a2a;
+}
+
 p, li {
   font-family: 'Lato', sans-serif;
 }
@@ -29,6 +33,7 @@ ul {
 
 li {
   padding-bottom: 20px;
+  font-weight: bold;
   font-size: 2em;
 }
 
@@ -44,7 +49,7 @@ li {
   float: left;
   position: fixed;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 #cover {
@@ -54,11 +59,16 @@ li {
 }
 
 #categories {
+  background-color: #2a2a2a;
   width: 19%;
   float: left;
-  margin-top: 150px;
+  margin-top: 200px;
   position: fixed;
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
+}
+
+#categories li a:link, #categories li a:visited {
+  color: #0d83d8;
 }
 
 #blocks {
@@ -66,7 +76,7 @@ li {
   float: right;
   margin-top: 20px;
   padding: 0px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 #blocks ul {
@@ -75,10 +85,13 @@ li {
 }
 
 #block {
+  background-color: #283030;
   width: 95%;
   height: 300px;
+  margin-top: 10px;
   padding: 15px;
-  border: 1px solid green;
+  border-radius: 10px;
+  border: 2px dashed #0d83d8;
 }
 
 #block img {
@@ -89,13 +102,16 @@ li {
 #header {
   font-weight: bold;
   font-size: 1.5em;
+  color: #0d83d8;
 }
 
 #description {
-  border: 1px solid purple;
+  /*border: 1px solid purple;*/
 }
 
-
+a:link, a:visited {
+  text-decoration: none;
+}
 
 
 
