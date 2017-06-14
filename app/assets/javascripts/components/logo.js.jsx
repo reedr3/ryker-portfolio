@@ -5,7 +5,7 @@ var Logo = React.createClass({
 
   render: function() {
     return (
-      <div> <img id="logo" src="https://vignette2.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png/revision/latest?cb=20130612174003" /> </div>
+      <div> <img id="logo" src="https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg" /> </div>
     );
   }
 });
