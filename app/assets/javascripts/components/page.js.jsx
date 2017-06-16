@@ -2,9 +2,9 @@ var Page = React.createClass({
   render: function() {
     return (
       <div>
-        <Logo data="imageurl" />
-        <Cover data="imageurl" />
-        <Categories data={this.props.categories} />
+        <Header />
+        <Content />
+        <Footer />
       </div>
     );
   }
