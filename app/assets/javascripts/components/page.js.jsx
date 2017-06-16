@@ -5,7 +5,6 @@ var Page = React.createClass({
         <Logo data="imageurl" />
         <Cover data="imageurl" />
         <Categories data={this.props.categories} />
-        <Blocks data={this.props.blocks} />
       </div>
     );
   }
