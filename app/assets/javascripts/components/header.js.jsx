@@ -4,7 +4,7 @@ var Header = React.createClass({
       <header id="header">
         <div className="container">
           <Logo />
-          <Navbar categories={this.props.categories} />
+          <Navbar categories={this.props.categories} category={this.props.category} />
         </div>
       </header>
     );
