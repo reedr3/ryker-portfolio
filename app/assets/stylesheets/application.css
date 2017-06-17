@@ -37,7 +37,6 @@
    line-height: 60px;
    background: #222;
    color: #0d83d8;
-   border: 1px solid red;
  }
  #header img {
    position: absolute;
@@ -70,10 +69,26 @@
    position: relative;
    width: 100%;
    padding-top: 180px;
-   border: 1px solid blue;
  }
  #content p { margin-bottom: 10px; }
-
+ #content #left-button {
+   position: fixed;
+   left: 0;
+   display: block;
+   width: 8%;
+   height: 75px;
+   margin-top: 150px;
+   z-index: 3;
+ }
+ #content #right-button {
+   position: fixed;
+   right: 0;
+   display: block;
+   width: 8%;
+   height: 75px;
+   margin-top: 150px;
+   z-index: 3;
+ }
 
 
 
@@ -85,7 +100,6 @@
    height: 100px;
    background: #222;
    color: #0d83d8;
-   border: 1px solid red;
  }
 #footer p { text-align: center;}
 #footer .icon {
@@ -93,6 +107,10 @@
   margin-left: 20px;
   margin-top: 10px;
 }
+
+
+
+
 
 
 
