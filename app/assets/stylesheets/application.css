@@ -111,9 +111,14 @@
    color: #0d83d8;
  }
 #footer p { text-align: center;}
+#footer #icons {
+  width: 15%;
+  margin: 0 auto;
+}
 #footer .icon {
   display: inline-block;
-  margin-left: 20px;
+  width: 25%;
+  margin-left: 12px;
   margin-top: 10px;
 }
 
@@ -135,8 +140,8 @@
   border-radius: 10px;
 }
 #project img {
-  width: 75%;
-  height: 300px;
+  width: 60%;
+  height: 250px;
   margin-left: 10px;
   display: inline-block;
   border-radius: 10px;
@@ -194,7 +199,6 @@
 
 /* Set a specific color for each brand */
 .fa-linkedin {
-    margin-left: 500px;
     background: #0077B5;
     color: white;
 }
