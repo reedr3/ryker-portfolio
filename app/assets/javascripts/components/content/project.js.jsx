@@ -5,7 +5,7 @@ var Project = React.createClass({
         <h1> {this.props.title} </h1>
         <img src={this.props.image} />
         <ul>
-          <li> <a href={this.props.github}> Github </a> </li>
+          <li> <a href={this.props.github}> Github Repo</a> </li>
           <li> <a href={this.props.liveApp}> {this.props.liveAppName} </a> </li>
         </ul>
         <p> {this.props.description} </p>
