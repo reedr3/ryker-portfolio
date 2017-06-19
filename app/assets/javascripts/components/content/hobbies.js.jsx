@@ -4,8 +4,6 @@ var Hobbies = React.createClass({
       <div>
         <Hobby />
         <Hobby />
-        <Hobby />
-        <Hobby />
       </div>
     );
   }
