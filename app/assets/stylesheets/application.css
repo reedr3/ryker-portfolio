@@ -165,16 +165,16 @@
   color: white;
   text-align: center;
 }
-.project img.myImg {
+.project img.image-with-modal {
   width: 80%;
   height: 300px;
-  margin: 0 10%;
-  display: inline-block;
+  margin: 0 auto;
+  display: block;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
-.project img.myImg:hover {
+.project img.image-with-modal:hover {
   opacity: 0.7;
 }
 .project div.external-links {
@@ -201,6 +201,102 @@
 
 
 
+/*--------------------------------------------------------------------------------------------------------*/
+/* Hobbies and Teaching */
+#hobbies, #teaching-experiences {
+  width: 100%;
+}
+.hobby-teaching {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+  display: block;
+}
+.hobby-teaching h1 {
+  color: white;
+  text-align: center;
+}
+.hobby-teaching img.image-with-modal {
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.hobby-teaching img.image-with-modal:hover {
+  opacity: 0.7;
+}
+.hobby-teaching div.ht-description {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 50px 0 0 2%;
+}
+.hobby-teaching p {
+  color: white;
+  font-size: 1.5em;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------*/
+/* Publications */
+#publications {
+  width: 100%;
+}
+.publication {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+  display: block;
+}
+.publication h1 {
+  color: white;
+  text-align: center;
+}
+.publication img.image-with-modal {
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.publication img.image-with-modal:hover {
+  opacity: 0.7;
+}
+.publication div.publication-description {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 0 0 2%;
+}
+.publication p {
+  color: white;
+  font-size: 1.2em;
+}
+.publication div.external-links {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.publication a {
+  display: inline-block;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 2%;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.publication a:link, .publication a:visited, .publication a:hover, .publication a:active {
+  color: white;
+}
+.project a:hover {
+  opacity: 0.7;
+}
 
 
 
@@ -224,7 +320,7 @@
 }
 
 /* Modal Title */
-.modal-title {
+.p-modal-title {
   margin: auto;
   display: block;
   width: 80%;
@@ -236,7 +332,7 @@
 }
 
 /* Modal Content (Image) */
-.modal-image {
+.p-modal-image {
     margin: 10px auto;
     display: block;
     width: 40%;
@@ -245,7 +341,7 @@
 }
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
-.modal-text {
+.p-modal-text {
     margin: auto;
     display: block;
     width: 80%;
@@ -257,14 +353,14 @@
 }
 
 /* Skills used to make project (listed under modal caption)*/
-.modal-skills {
+.p-modal-skills {
     margin: 0 auto;
     display: block;
     width: 80%;
     max-width: 900px;
     text-align: center;
 }
-.modal-skills p {
+.p-modal-skills p {
   display: inline-block;
   border-radius: 10px;
   padding: 10px;
@@ -275,8 +371,26 @@
   border: 1px solid #0d83d8;
 }
 
+/* Hobby Teaching Modal */
+.ht-modal-image {
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    height: 500px;
+    max-width: 900px;
+}
+
+/* Publication Modal */
+.pub-modal-image {
+    margin: 20px auto;
+    display: block;
+    width: 50%;
+    height: 500px;
+    max-width: 900px;
+}
+
 /* Add Animation - Zoom in the Modal */
-.modal-title, .modal-image, .modal-text, .modal-skills {
+.p-modal-title, .p-modal-image, .p-modal-text, .p-modal-skills, .ht-modal-image, .pub-modal-image {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;

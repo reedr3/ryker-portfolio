@@ -1,4 +1,4 @@
-var Publication = React.createClass({
+var HobbyTeaching = React.createClass({
   getInitialState: function() {
     return {modalDisplay: {display: "none"}};
   },
@@ -17,16 +17,11 @@ var Publication = React.createClass({
 
   render: function() {
     return (
-      <div className="publication">
+      <div className="hobby-teaching">
         <h1> {this.props.title} </h1>
         <ImageWithModal showModalCallback={this.showModal} image={this.props.image} />
-        <div className="publication-description">
-          <p> {this.props.description} </p>
-          <div className="external-links">
-            <a href={this.props.liveApp}> {this.props.liveAppName} </a>
-          </div>
-        </div>
-        <PublicationModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} title={this.props.title} image={this.props.image} description={this.props.description} />
+        <div className="ht-description"> <p> {this.props.description} </p> </div>
+        <HobbyTeachingModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} image={this.props.image} />
       </div>
     );
   }
