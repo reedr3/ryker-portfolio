@@ -17,15 +17,14 @@ var Hobby = React.createClass({
 
   render: function() {
     return (
-      <div>
-        <h1>I'm a hobby!</h1>
-        <img className="myImg" onClick={this.showModal} src="https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg" alt="test image for modal test" />
-
-        <div className="modal" style={this.state.modalDisplay}>
-          <span className="close" onClick={this.closeModal}>&times;</span>
-          <img className="modal-content" src="https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"/>
-          <div className="caption">This is a caption</div>
+      <div className="hobby">
+        <h1> {this.props.title} </h1>
+        <ImageWithModal showModalCallback={this.showModal} image={this.props.image} />
+        <div className="external-links">
+          <a href={this.props.liveApp}> {this.props.liveAppName} </a>
         </div>
+
+        <Modal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} title={this.props.title} image={this.props.image} description={this.props.description} />
       </div>
     );
   }
