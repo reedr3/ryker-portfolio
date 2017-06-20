@@ -19,25 +19,13 @@ var Project = React.createClass({
     return (
       <div className="project">
         <h1> {this.props.title} </h1>
-        <img className="myImg" onClick={this.showModal} src={this.props.image} />
+        <ImageWithModal showModalCallback={this.showModal} image={this.props.image} />
         <div className="external-links">
           <a href={this.props.github}> Github Repo</a>
           <a href={this.props.liveApp}> {this.props.liveAppName} </a>
         </div>
 
-        <div className="modal" style={this.state.modalDisplay}>
-          <span className="close" onClick={this.closeModal}>&times;</span>
-          <h2 className="modal-title"> {this.props.title} </h2>
-          <img className="modal-image" src={this.props.image} />
-          <div className="modal-text"> {this.props.description} </div>
-          <div className="modal-skills">
-            <p>React</p>
-            <p>Rails</p>
-            <p>Ruby</p>
-            <p>Ruby</p>
-            <p>Ruby</p>
-          </div>
-        </div>
+        <Modal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} title={this.props.title} image={this.props.image} description={this.props.description} />
       </div>
     );
   }
