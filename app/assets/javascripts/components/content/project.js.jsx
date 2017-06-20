@@ -17,7 +17,7 @@ var Project = React.createClass({
 
   render: function() {
     return (
-      <div id="project">
+      <div className="project">
         <h1> {this.props.title} </h1>
         <img className="myImg" onClick={this.showModal} src={this.props.image} />
         <div className="external-links">
@@ -27,14 +27,14 @@ var Project = React.createClass({
 
         <div className="modal" style={this.state.modalDisplay}>
           <span className="close" onClick={this.closeModal}>&times;</span>
-          <h2> {this.props.title} </h2>
-          <img className="modal-content" src={this.props.image} />
-          <div className="caption"> {this.props.description} </div>
-            <ul>
-              <li> React </li>
-              <li> Rails </li>
-              <li> Ruby </li>
-            </ul>
+          <h2 className="modal-title"> {this.props.title} </h2>
+          <img className="modal-image" src={this.props.image} />
+          <div className="modal-text"> {this.props.description} </div>
+          <div className="modal-skills">
+            <p>React</p>
+            <p>Rails</p>
+            <p>Ruby</p>
+          </div>
         </div>
       </div>
     );
