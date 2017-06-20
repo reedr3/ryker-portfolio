@@ -59,13 +59,6 @@
    float: left;
    list-style: none;
  }
- #header #nav li a.not-current-category {
-   display: block;
-   font-size: 1.5em;
-   color: #0d83d8;
-   text-decoration: none;
-   padding: 0 10px;
- }
  #header #nav li a.current-category {
    display: block;
    font-size: 1.5em;
@@ -74,6 +67,16 @@
    text-decoration: none;
    padding: 0 10px;
    border-bottom: 3px solid #0d83d8;
+ }
+ #header #nav li a.not-current-category {
+   display: block;
+   font-size: 1.5em;
+   color: #0d83d8;
+   text-decoration: none;
+   padding: 0 10px;
+ }
+ #header #nav li a.not-current-category:hover {
+   opacity: 0.7;
  }
 
 
@@ -115,8 +118,7 @@
     text-decoration: none;
     border-radius: 25%;
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 0;
+    margin: 10px 2% 0px 3%;
 }
 
 /* Add a hover effect */
@@ -177,20 +179,24 @@
 }
 .project div.external-links {
   width: 80%;
-  margin: 0 10%;
+  margin: 0 auto;
   text-align: center;
 }
 .project a {
   display: inline-block;
   background-color: #222;
   border-radius: 10px;
-  font-size: 1.8em;
   padding: 10px;
+  margin: 10px 2%;
+  font-size: 1.8em;
   font-weight: bold;
   text-decoration: none;
 }
 .project a:link, .project a:visited, .project a:hover, .project a:active {
   color: white;
+}
+.project a:hover {
+  opacity: 0.7;
 }
 
 
@@ -214,7 +220,7 @@
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.98); /* Black w/ opacity */
+    background-color: rgba(0,0,0,0.96); /* Black w/ opacity */
 }
 
 /* Modal Title */
@@ -252,25 +258,25 @@
 
 /* Skills used to make project (listed under modal caption)*/
 .modal-skills {
-    margin: auto;
+    margin: 0 auto;
     display: block;
     width: 80%;
     max-width: 900px;
     text-align: center;
-    color: #0d83d8;
-    border: 1px solid red;
 }
 .modal-skills p {
   display: inline-block;
   border-radius: 10px;
-  font-size: 1.8em;
   padding: 10px;
+  margin: 10px 2%;
+  font-size: 1.8em;
+  color: #0d83d8;
   font-weight: bold;
   border: 1px solid #0d83d8;
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-title .modal-image, .modal-text {
+.modal-title, .modal-image, .modal-text, .modal-skills {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;

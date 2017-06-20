@@ -34,6 +34,8 @@ var Project = React.createClass({
             <p>React</p>
             <p>Rails</p>
             <p>Ruby</p>
+            <p>Ruby</p>
+            <p>Ruby</p>
           </div>
         </div>
       </div>
