@@ -19,9 +19,9 @@ var HobbyTeaching = React.createClass({
     return (
       <div className="hobby-teaching">
         <h1> {this.props.title} </h1>
-        <ImageWithModal showModalCallback={this.showModal} image={this.props.image} />
+        <ImageWithModal showModalCallback={this.showModal} image={this.props.modalImages[0]} />
         <div className="ht-description"> <p> {this.props.description} </p> </div>
-        <HobbyTeachingModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} image={this.props.image} />
+        <HobbyTeachingModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} modalImages={this.props.modalImages} />
       </div>
     );
   }

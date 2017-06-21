@@ -19,13 +19,13 @@ var Project = React.createClass({
     return (
       <div className="project">
         <h1> {this.props.title} </h1>
-        <ImageWithModal showModalCallback={this.showModal} image={this.props.image} />
+        <ImageWithModal showModalCallback={this.showModal} image={this.props.modalImages[0]} />
         <div className="external-links">
           <a href={this.props.github}> Github Repo</a>
           <a href={this.props.liveApp}> {this.props.liveAppName} </a>
         </div>
 
-        <ProjectModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} title={this.props.title} image={this.props.image} description={this.props.description} skills={this.props.skills}/>
+        <ProjectModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} title={this.props.title} modalImages={this.props.modalImages} description={this.props.description} skills={this.props.skills} />
       </div>
     );
   }
