@@ -1,4 +1,4 @@
-var TeachingExperiences = React.createClass({
+var Teaching = React.createClass({
   render: function() {
     return (
       <div id="teaching-experiences">

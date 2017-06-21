@@ -1,6 +1,6 @@
 var Content = React.createClass({
   whichCategory: function(categoryId) {
-    var categoryComponents = [<About/>, <Projects/>, <TeachingExperiences/>, <Publications/>, <Hobbies/>, <Contact/>];
+    var categoryComponents = [<About/>, <Projects/>, <Teaching/>, <Publications/>, <Hobbies/>, <Contact/>];
     return (categoryComponents[categoryId - 1]);
   },
 
