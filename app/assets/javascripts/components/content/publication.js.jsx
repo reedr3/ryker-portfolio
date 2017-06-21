@@ -21,7 +21,8 @@ var Publication = React.createClass({
         <h1> {this.props.title} </h1>
         <ImageWithModal showModalCallback={this.showModal} image={this.props.image} />
         <div className="publication-description">
-          <p> {this.props.description} </p>
+          <p> {this.props.description1} </p>
+          <p> {this.props.description2} </p>
           <div className="external-links">
             <a href={this.props.liveApp}> {this.props.liveAppName} </a>
           </div>
