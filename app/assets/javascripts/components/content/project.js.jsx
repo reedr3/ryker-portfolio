@@ -25,7 +25,7 @@ var Project = React.createClass({
           <a href={this.props.liveApp}> {this.props.liveAppName} </a>
         </div>
 
-        <ProjectModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} title={this.props.title} image={this.props.image} description={this.props.description} />
+        <ProjectModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} title={this.props.title} image={this.props.image} description={this.props.description} skills={this.props.skills}/>
       </div>
     );
   }

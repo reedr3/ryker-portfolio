@@ -7,11 +7,9 @@ var ProjectModal = React.createClass({
         <img className="p-modal-image" src={this.props.image} />
         <div className="p-modal-text"> {this.props.description} </div>
         <div className="p-modal-skills">
-          <p>React</p>
-          <p>Rails</p>
-          <p>Ruby</p>
-          <p>Ruby</p>
-          <p>Ruby</p>
+          {this.props.skills.map(function(skill) {
+              return <p> {skill} </p>
+            }.bind(this))}
         </div>
       </div>
     );
