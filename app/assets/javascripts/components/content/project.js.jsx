@@ -1,6 +1,6 @@
 var Project = React.createClass({
   getInitialState: function() {
-    return {modalDisplay: {display: "none"}};
+    return {modalDisplay: {display: "none"}, currentModalImageIndex: 0};
   },
 
   showModal: function() {
@@ -15,6 +15,28 @@ var Project = React.createClass({
     this.setState(newState);
   },
 
+  changeImageLeft: function() {
+    var newState = this.state;
+    if (newState.currentModalImageIndex > 0) {
+      newState.currentModalImageIndex = newState.currentModalImageIndex - 1;
+    }
+    else if (newState.currentModalImageIndex == 0) {
+      newState.currentModalImageIndex = this.props.modalImages.length -1;
+    }
+    this.setState(newState);
+  },
+
+  changeImageRight: function() {
+    var newState = this.state;
+    if (newState.currentModalImageIndex < this.props.modalImages.length - 1) {
+      newState.currentModalImageIndex = newState.currentModalImageIndex + 1;
+    }
+    else if (newState.currentModalImageIndex == this.props.modalImages.length - 1) {
+      newState.currentModalImageIndex = 0;
+    }
+    this.setState(newState);
+  },
+
   render: function() {
     return (
       <div className="project">
@@ -25,7 +47,18 @@ var Project = React.createClass({
           <a href={this.props.liveApp}> {this.props.liveAppName} </a>
         </div>
 
-        <ProjectModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} title={this.props.title} modalImages={this.props.modalImages} description={this.props.description} skills={this.props.skills} />
+        <ProjectModal
+          modalImages={this.props.modalImages}
+          modalDisplay={this.state.modalDisplay}
+          currentModalImageIndex={this.state.currentModalImageIndex}
+          closeModalCallback={this.closeModal}
+          changeImageLeftCallback={this.changeImageLeft}
+          changeImageRightCallback={this.changeImageRight}
+          title={this.props.title}
+          description={this.props.description}
+          skills={this.props.skills}
+          imageCaptions={this.props.imageCaptions}
+        />
       </div>
     );
   }

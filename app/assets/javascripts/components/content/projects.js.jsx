@@ -10,6 +10,7 @@ var Projects = React.createClass({
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Action Cable", "HTML5", "CSS"]}
           modalImages={["https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=PsHBYbLmA06UclvJK%2BlANZQAVqc%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdf3Pof8SLebb3uVsTKiUclFZnLvL6STngD8a6Ioq6etxyisXgIY24ZxUBbFImi24", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          imageCaptions={["caption 1", "caption 2", "caption 3"]}
         />
 
         <Project
@@ -20,6 +21,7 @@ var Projects = React.createClass({
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Alexa SDK", "Amazon AWS LAmbda"]}
           modalImages={["https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=NKqpjVNrkxdJMA%2ByLgrxnz%2ByyZY%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdf3Ppf5WJK-OnuQ8SKS4clAdgLfL5FWK3D5vvKI7re9gnjpbtco24ZxUBbFImi24"]}
+          imageCaptions={["caption 1"]}
         />
 
         <Project
@@ -30,6 +32,7 @@ var Projects = React.createClass({
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Alexa SDK", "Amazon AWS LAmbda"]}
           modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          imageCaptions={["caption 1"]}
         />
 
         <Project
@@ -40,6 +43,7 @@ var Projects = React.createClass({
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Alexa SDK", "Amazon AWS LAmbda"]}
           modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          imageCaptions={["caption 1"]}
         />
 
         <Project
@@ -50,6 +54,7 @@ var Projects = React.createClass({
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
           modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          imageCaptions={["caption 1"]}
         />
 
         <Project
@@ -60,6 +65,7 @@ var Projects = React.createClass({
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
           modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          imageCaptions={["caption 1"]}
         />
 
         <Project
@@ -70,6 +76,7 @@ var Projects = React.createClass({
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
           modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          imageCaptions={["caption 1"]}
         />
       </div>
     );
