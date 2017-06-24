@@ -4,9 +4,9 @@ class ContactEmailsController < ApplicationController
   end
 
   def create
-    @contact_email = ContactEmail.new(params[:contact_email])
+    @contact_email = ContactEmail.new(name: params[:name], email: params[:email], message: params[:message])
     if @contact_email.save
-      ContactMailer.contact_email("ryker", "test email", "test message").deliver_now
+      ContactMailer.contact_email(@contact_email.name, @contact_email.email, @contact_email.message).deliver_now
     end
   end
 end

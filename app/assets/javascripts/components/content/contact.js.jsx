@@ -2,7 +2,7 @@ var Contact = React.createClass({
   render: function() {
     return (
       <div>
-        <h1>I'm a contact page!</h1>
+        <h1>Contact Me!</h1>
         <form action='/contact_emails' method='post'>
           <input type='hidden' name='authenticity_token' value={this.props.authenticityToken} />
           <input type='text' name='name' />

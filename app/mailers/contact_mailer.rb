@@ -5,6 +5,6 @@ class ContactMailer < ApplicationMailer
     @name = name
     @email = email
     @message = message
-    mail(to: "ryker.reed3@gmail.com", subject: 'Test Subject Line')
+    mail(to: "ryker.reed3@gmail.com", subject: "This is the subject")
   end
 end
