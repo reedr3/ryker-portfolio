@@ -45,6 +45,7 @@ var HobbyTeaching = React.createClass({
         <div className="ht-description"> <p> {this.props.description} </p> </div>
         <HobbyTeachingModal
           modalImages={this.props.modalImages}
+          imageCaptions={this.props.imageCaptions}
           modalDisplay={this.state.modalDisplay}
           currentModalImageIndex={this.state.currentModalImageIndex}
           closeModalCallback={this.closeModal}

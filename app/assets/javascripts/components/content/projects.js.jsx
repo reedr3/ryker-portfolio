@@ -15,7 +15,7 @@ var Projects = React.createClass({
 
         <Project
           title="My Linguistic Facts"
-          description="I created and published a skill for the Amazon Alexa skills store. This skill allows Alexa to dynamically respond to requests for information about linguistics. It allows Alexa to respond with a variety of different facts about linguistics spanning many sub-fields including syntax, phonology, morphology, semantics, historical linguistics, language acquisition, and constructed languages. The skill was created using Javascript."
+          description="I created and published a skill for the Amazon Alexa skills store. This skill allows Alexa to dynamically respond to requests for information about linguistics. It allows Alexa to respond with a variety of different facts about linguistics spanning many sub-fields including syntax, phonology, morphology, semantics, historical linguistics, language acquisition, and constructed languages."
           github="https://github.com/domlet/game_the_progress"
           liveApp="http://gametheprogress.herokuapp.com/"
           liveAppName="Alexa Skill"

@@ -27,7 +27,7 @@ var Publication = React.createClass({
             <a href={this.props.liveApp}> {this.props.liveAppName} </a>
           </div>
         </div>
-        <PublicationModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} title={this.props.title} image={this.props.image} description={this.props.description} />
+        <PublicationModal modalDisplay={this.state.modalDisplay} closeModalCallback={this.closeModal} title={this.props.title} image={this.props.image} description={this.props.description} imageCaption={this.props.imageCaption} />
       </div>
     );
   }
