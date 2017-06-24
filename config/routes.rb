@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :contact_emails
   resources :categories do
     resources :blocks
   end
