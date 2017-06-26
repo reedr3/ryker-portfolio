@@ -9,7 +9,7 @@ var Projects = React.createClass({
           liveApp="http://gametheprogress.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Action Cable", "HTML5", "CSS"]}
-          modalImages={["https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=PsHBYbLmA06UclvJK%2BlANZQAVqc%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdf3Pof8SLebb3uVsTKiUclFZnLvL6STngD8a6Ioq6etxyisXgIY24ZxUBbFImi24", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19511050_10156204503273998_4583540318610076101_n.jpg?oh=b6e525773c0069012fa035b792a4b010&oe=59CD5EF4", "https://scontent.xx.fbcdn.net/v/t1.0-9/19420774_10156204503438998_1597688921241360681_n.jpg?oh=ca85c9a183bb7488502745d5dad778f6&oe=59DB8C99", "https://scontent.xx.fbcdn.net/v/t1.0-9/19554717_10156204503198998_3784043851095858786_n.jpg?oh=dbe7841be96cd2cadff3fb6c2f42a936&oe=59D4DAF0"]}
           imageCaptions={["(Class view) This is an example of a quiz question and multiple choice answers.", "(Teacher view) They can access student results for past quizzes from here or begin a new quiz.", "Register page with options to sign up as a teacher or student."]}
         />
 
@@ -19,9 +19,9 @@ var Projects = React.createClass({
           github=""
           liveApp="http://alexa.amazon.com/spa/index.html#skills/dp/B01MAWGFIG"
           liveAppName="Alexa Skill"
-          skills={["Javascript", "Node.js", "Alexa Skills Kit", "Amazon AWS Lambda"]}
-          modalImages={["https://media.licdn.com/media-proxy/ext?w=800&h=800&f=n&hash=NKqpjVNrkxdJMA%2ByLgrxnz%2ByyZY%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta9Er0Vinkhwfjw8177yE41y87UNCVordEGXyD3u0qYrdf3Ppf5WJK-OnuQ8SKS4clAdgLfL5FWK3D5vvKI7re9gnjpbtco24ZxUBbFImi24", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
-          imageCaptions={["My Linguistic Facts skill icon", "My Linguistic Facts on the Alexa skills store, showing example invocation phrases."]}
+          skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
+          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19424474_10156204540743998_5233768878701445705_n.jpg?oh=a3c561d412e7400fa94b1ec00dc1d3ed&oe=59C4F06C"]}
+          imageCaptions={["My Linguistic Facts on the Alexa skills store, showing example invocation phrases."]}
         />
 
         <Project
@@ -30,9 +30,9 @@ var Projects = React.createClass({
           github=""
           liveApp="http://alexa.amazon.com/spa/index.html#skills/dp/B0736FC2LX"
           liveAppName="Alexa Skill"
-          skills={["Javascript", "Node.js", "Alexa Skills Kit", "Amazon AWS Lambda"]}
-          modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
-          imageCaptions={["My Gender Identity Facts skill icon", "My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}
+          skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
+          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420527_10156204539503998_669361087570957194_n.jpg?oh=d8ce148938f427fa8d81d541b9d8e96d&oe=59D4F15D"]}
+          imageCaptions={["My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}
         />
 
         <Project
@@ -42,8 +42,8 @@ var Projects = React.createClass({
           liveApp="http://immense-shore-40076.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
-          imageCaptions={["About Page", "Projects Page", "Teaching Page"]}
+          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420398_10156204591268998_4444017874089332676_n.jpg?oh=5079f0b6dad509889744d92d087e4ae4&oe=59DF2D5A", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
           />
 
         <Project
@@ -52,9 +52,9 @@ var Projects = React.createClass({
           github="https://github.com/reedr3/unofficial-sorting-hat"
           liveApp=""
           liveAppName="Alexa Skill"
-          skills={["Javascript", "Node.js", "Alexa Skills Kit", "Amazon AWS Lambda"]}
-          modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
-          imageCaptions={["My Hogwarts Sorting Hat skill icon", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
+          skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
+          modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          imageCaptions={["My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
         />
       </div>
     );
