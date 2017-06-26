@@ -5,22 +5,22 @@ var Hobbies = React.createClass({
         <HobbyTeaching
           title="Barnstormers Softball"
           description="I play first base for the Barnstormers softball team. We are a team for trans and gender non-conforming players, who are so often excluded from sports. Along with our sibling team the Trailblazers we aim to make a place for trans players and make sports more welcoming to everyone. We play in the Boston Beantown league."
-          modalImages={["https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/14590365_10155313424798998_5363094388011485120_n.jpg?oh=db26a6b9ff9b2ee2e8028f700e17681f&oe=59D9C747", "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/10352776_10200556361427083_6029483449388138487_n.jpg?oh=21f948bbf7716679265ce8753f3212a0&oe=59E1B367", "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-0/p526x296/19424358_10156189733928998_7281557071917389105_n.jpg?oh=aed3adda6ec72e1623d3ef6e87ba7e83&oe=59CC0E93"]}
+          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19424450_10156204688203998_7388505682361865170_n.jpg?oh=ec77ee4ebe379d1b457474a20f1524f8&oe=59C3D4F3", "https://scontent.xx.fbcdn.net/v/t1.0-9/19429975_10156204681498998_6473991747997450750_n.jpg?oh=016291af76dded0d984332df74ed58f7&oe=59D6CBEA", "https://scontent.xx.fbcdn.net/v/t1.0-9/19437659_10156204684953998_4328046667440108543_n.jpg?oh=1fa9a58b283206baf05a488a841a514d&oe=59DA4C25"]}
           imageCaptions={["Barnstormers and Trailblazers joint team photo (2016)", "Barnstormers celebrating a double header victory (2015)", "Ryker at bat (2016)"]}
         />
 
         <HobbyTeaching
           title="Constructed Languages"
           description="I have been fascinated by constructed languages since I was young. Tolkien and his extremely elaborate and extensive constructed languages has been a particular inspiration. Using my knowledge of Linguistics, I work on creating my own grammars and alphabets, as well as reading about constructed languages in literature and movies."
-          modalImages={["http://www.omniglot.com/images/langsamples/udhr_tengwar_en.gif", "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/17951828_10155929569903998_7785127894840825589_n.jpg?oh=cdae8bbc3cac4f203b65e99b4030cf2b&oe=59CF4705"]}
-          imageCaptions={["caption 1", "caption 2", "caption 3"]}
+          modalImages={["http://www.omniglot.com/images/langsamples/udhr_tengwar_en.gif", "https://scontent.xx.fbcdn.net/v/t1.0-9/19510677_10156204831528998_5163301968829864421_n.jpg?oh=dbf362087e85ac8cb42a9c0b9d20643e&oe=59CC5AC4", "https://scontent.xx.fbcdn.net/v/t1.0-9/19510314_10156204830858998_3872876319317207694_n.jpg?oh=9a79ac092d08fa1c12ec8622bc4615fe&oe=59C5E72A"]}
+          imageCaptions={["My invented alphabet", "A chart showing the different modes for Tolkien's Tengwar script", "A sample of Klingon writing"]}
         />
 
         <HobbyTeaching
           title="Cosplay"
           description="I love making costumes and just this year I finally attended my first Convention. I enjoy doing solo cosplays and also group cosplays with my friends. My favorite things to make are props and I'm especially good at making all manner of things out of duct tape."
-          modalImages={["https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/17951828_10155929569903998_7785127894840825589_n.jpg?oh=cdae8bbc3cac4f203b65e99b4030cf2b&oe=59CF4705", "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/17634505_10211843396660885_4147268397520629838_n.jpg?oh=819636b07df68a870ba387db0281b5aa&oe=59E99408", "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/17523565_10211897312968759_6915739742822664650_n.jpg?oh=67eb3f23962c8e20a9b482123a813305&oe=59E689D0"]}
-          imageCaptions={["Commander Riker and Lieutenant Geordi meeting Lieutenant Uhura (the incredible Nichelle Nichols)!", "Milo and Kida from Atlantis the Lost Empire", "Rey and Finn from the Force Awakens"]}
+          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420734_10156204842748998_215921509591975239_n.jpg?oh=93ee9c93904fedf49a5b24d400b4a0f5&oe=59D36CB5", "https://scontent.xx.fbcdn.net/v/t1.0-9/19437598_10156204943868998_6577700759491729550_n.jpg?oh=438f38768a8afb110856fc29718af18b&oe=59C4674B", "https://scontent.xx.fbcdn.net/v/t1.0-9/19510113_10156204833768998_2838069383390061927_n.jpg?oh=8f887028124d478f8b00cb1b2e232620&oe=59DC59DC"]}
+          imageCaptions={["Commander Riker and Lieutenant Geordi meeting Lieutenant Uhura (the incredible Nichelle Nichols)!", "Milo, Kida, and Audrey from Atlantis the Lost Empire", "Rey and Finn from the Force Awakens"]}
         />
       </div>
     );
