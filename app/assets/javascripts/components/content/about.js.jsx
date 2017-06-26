@@ -6,6 +6,7 @@ var About = React.createClass({
         <p>I'm an education history component</p>
         <p>I'm some Ryker skills components</p>
         <p>I'm a resume component</p>
+        <a href="Ryker_Reed_Resume.pdf" download>Download Resume</a>
         <p>testimonial from maria</p>
       </div>
     );
