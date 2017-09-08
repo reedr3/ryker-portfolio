@@ -16,7 +16,7 @@ var Projects = React.createClass({
         <Project
           title="My Linguistic Facts"
           description="I created and published a skill for the Amazon Alexa skills store. This skill allows Alexa to dynamically respond to requests for information about linguistics. It allows Alexa to respond with a variety of different facts about linguistics spanning many sub-fields including syntax, phonology, morphology, semantics, historical linguistics, language acquisition, and constructed languages."
-          github=""
+          github="https://github.com/reedr3/my-linguistic-facts"
           liveApp="http://alexa.amazon.com/spa/index.html#skills/dp/B01MAWGFIG"
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
@@ -27,7 +27,7 @@ var Projects = React.createClass({
         <Project
           title="My Gender Identity Facts"
           description="I created and published a skill for the Amazon Alexa skills store. This skill allows Alexa to dynamically respond to requests for information about gender identity. It allows Alexa to respond with a variety of different facts about gender identity, including defining general terms like gender identity and gender expression as well as defining many specific gender identities such as transgender, cisgender, and non binary. It also provides information on gender neutral pronouns and how to use them."
-          github=""
+          github="https://github.com/reedr3/my-gender-identity-facts"
           liveApp="http://alexa.amazon.com/spa/index.html#skills/dp/B0736FC2LX"
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
@@ -39,7 +39,7 @@ var Projects = React.createClass({
           title="Ryker's Portfolio"
           description="I created this portfolio website to showcase my learning process and accomplishments as a developer. The website was created using Rails and React and is hosted on Heroku."
           github="https://github.com/reedr3/ryker-portfolio"
-          liveApp="http://immense-shore-40076.herokuapp.com/"
+          liveApp="http://ryker-reed.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
           modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420398_10156204591268998_4444017874089332676_n.jpg?oh=5079f0b6dad509889744d92d087e4ae4&oe=59DF2D5A", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
@@ -49,13 +49,24 @@ var Projects = React.createClass({
         <Project
           title="My Hogwarts Sorting Hat"
           description="I created and published a skill for the Amazon Alexa skills store. This skill is an interactive adventure designed to make the user feel as though they are a student at Hogwarts being sorted into their house. It allows users to hear the Hogwarts sorting songs and then answer a series of questions about themselves. It uses these answers to determine which Hogwarts house they belong in and announces it as the sorting hat would. There are several Harry Potter easter eggs for those who explore all the possible interaction options."
-          github="https://github.com/reedr3/unofficial-sorting-hat"
+          github="https://github.com/reedr3/my-hogwarts-sorting-hat"
           liveApp=""
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
           modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
           imageCaptions={["My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
         />
+
+        <Project
+          title="Pensieve"
+          description="Task management app."
+          github="https://github.com/reedr3/pensieve"
+          liveApp="http://pensieve.herokuapp.com/"
+          liveAppName="Heroku App"
+          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
+          modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          imageCaptions={["img1", "img2", "img3"]}
+          />
       </div>
     );
   }
