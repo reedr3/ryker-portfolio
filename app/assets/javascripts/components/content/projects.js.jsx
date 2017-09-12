@@ -20,7 +20,7 @@ var Projects = React.createClass({
           liveApp="https://www.amazon.com/gp/product/B01MAWGFIG"
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.xx.fbcdn.net/v/t1.0-9/19424474_10156204540743998_5233768878701445705_n.jpg?oh=a3c561d412e7400fa94b1ec00dc1d3ed&oe=59C4F06C"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740420_10156502510233998_7107315001978192820_n.jpg?oh=353cb1da5b8db7cd5e931e860a216bac&oe=5A1B6776", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728266_10156502510258998_1411791451728250120_n.jpg?oh=384e747da38dbf0b762cd4765207d544&oe=5A4B665A"]}
           imageCaptions={["My Linguistic Facts Alexa Skill Logo", "My Linguistic Facts on the Alexa skills store, showing example invocation phrases."]}
         />
 
@@ -31,7 +31,7 @@ var Projects = React.createClass({
           liveApp="https://www.amazon.com/gp/product/B0736FC2LX"
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.xx.fbcdn.net/v/t1.0-9/19420527_10156204539503998_669361087570957194_n.jpg?oh=d8ce148938f427fa8d81d541b9d8e96d&oe=59D4F15D"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728084_10156502510243998_325431731644107850_n.jpg?oh=84c35aa92e07bcb4f40456a09d5177c1&oe=5A4DFB25", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751808_10156502510303998_3076977622821457210_n.jpg?oh=05f2198aabe1a0e5eadb2c00f1ea90e4&oe=5A487E30"]}
           imageCaptions={["My Gender Identity Facts Alexa Skill Logo", "My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}
         />
 
@@ -53,7 +53,7 @@ var Projects = React.createClass({
           liveApp="https://www.amazon.com/gp/product/B075FZGK3Y"
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21432710_10156496141363998_8589420498723644292_n.jpg?oh=f1ec0758e88efa81f77ba446e2ec73d5&oe=5A13E9B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21432710_10156496141363998_8589420498723644292_n.jpg?oh=f1ec0758e88efa81f77ba446e2ec73d5&oe=5A13E9B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728027_10156502510253998_3300946840728705226_n.jpg?oh=ba6413adf8815926b168df0f5407d9e2&oe=5A550C91"]}
           imageCaptions={["My Hogwarts Sorting Hat Alexa Skill Logo", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
         />
 
