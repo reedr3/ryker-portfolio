@@ -12,8 +12,8 @@ var Hobbies = React.createClass({
         <HobbyTeaching
           title="Constructed Languages"
           description="I have been fascinated by constructed languages since I was young. Tolkien and his extremely elaborate and extensive constructed languages has been a particular inspiration. Using my knowledge of Linguistics, I work on creating my own grammars and alphabets, as well as reading about constructed languages in literature and movies."
-          modalImages={["http://www.omniglot.com/images/langsamples/udhr_tengwar_en.gif", "https://scontent.xx.fbcdn.net/v/t1.0-9/19510677_10156204831528998_5163301968829864421_n.jpg?oh=dbf362087e85ac8cb42a9c0b9d20643e&oe=59CC5AC4", "https://scontent.xx.fbcdn.net/v/t1.0-9/19510314_10156204830858998_3872876319317207694_n.jpg?oh=9a79ac092d08fa1c12ec8622bc4615fe&oe=59C5E72A"]}
-          imageCaptions={["My invented alphabet", "A chart showing the different modes for Tolkien's Tengwar script", "A sample of Klingon writing"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21743277_10156501902428998_5801873539656788311_n.jpg?oh=ae9aa3641f1ff2267d39575b64a8e8d4&oe=5A131753", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740661_10156501902423998_2119303293922793447_n.jpg?oh=abfc5894e931c5a6bc43eaf8fc67bbaf&oe=5A5F6CDB", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751553_10156501902418998_6666268973380199923_n.jpg?oh=02c77b5c61ec368c1caa3734e4193702&oe=5A5B6E6C"]}
+          imageCaptions={["A message written in my invented alphabet. Can you decipher it?", "A chart showing the consonants of my invented alphabet.", "A chart showing the vowels of my invented alphabet."]}
         />
 
         <HobbyTeaching

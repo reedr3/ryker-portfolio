@@ -17,22 +17,22 @@ var Projects = React.createClass({
           title="My Linguistic Facts"
           description="I created and published a skill for the Amazon Alexa skills store. This skill allows Alexa to dynamically respond to requests for information about linguistics. It allows Alexa to respond with a variety of different facts about linguistics spanning many sub-fields including syntax, phonology, morphology, semantics, historical linguistics, language acquisition, and constructed languages."
           github="https://github.com/reedr3/my-linguistic-facts"
-          liveApp="http://alexa.amazon.com/spa/index.html#skills/dp/B01MAWGFIG"
+          liveApp="https://www.amazon.com/gp/product/B01MAWGFIG"
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
-          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19424474_10156204540743998_5233768878701445705_n.jpg?oh=a3c561d412e7400fa94b1ec00dc1d3ed&oe=59C4F06C"]}
-          imageCaptions={["My Linguistic Facts on the Alexa skills store, showing example invocation phrases."]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740420_10156502510233998_7107315001978192820_n.jpg?oh=353cb1da5b8db7cd5e931e860a216bac&oe=5A1B6776", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728266_10156502510258998_1411791451728250120_n.jpg?oh=384e747da38dbf0b762cd4765207d544&oe=5A4B665A"]}
+          imageCaptions={["My Linguistic Facts Alexa Skill Logo", "My Linguistic Facts on the Alexa skills store, showing example invocation phrases."]}
         />
 
         <Project
           title="My Gender Identity Facts"
           description="I created and published a skill for the Amazon Alexa skills store. This skill allows Alexa to dynamically respond to requests for information about gender identity. It allows Alexa to respond with a variety of different facts about gender identity, including defining general terms like gender identity and gender expression as well as defining many specific gender identities such as transgender, cisgender, and non binary. It also provides information on gender neutral pronouns and how to use them."
           github="https://github.com/reedr3/my-gender-identity-facts"
-          liveApp="http://alexa.amazon.com/spa/index.html#skills/dp/B0736FC2LX"
+          liveApp="https://www.amazon.com/gp/product/B0736FC2LX"
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
-          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420527_10156204539503998_669361087570957194_n.jpg?oh=d8ce148938f427fa8d81d541b9d8e96d&oe=59D4F15D"]}
-          imageCaptions={["My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728084_10156502510243998_325431731644107850_n.jpg?oh=84c35aa92e07bcb4f40456a09d5177c1&oe=5A4DFB25", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751808_10156502510303998_3076977622821457210_n.jpg?oh=05f2198aabe1a0e5eadb2c00f1ea90e4&oe=5A487E30"]}
+          imageCaptions={["My Gender Identity Facts Alexa Skill Logo", "My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}
         />
 
         <Project
@@ -42,7 +42,7 @@ var Projects = React.createClass({
           liveApp="http://ryker-reed.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420398_10156204591268998_4444017874089332676_n.jpg?oh=5079f0b6dad509889744d92d087e4ae4&oe=59DF2D5A", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420398_10156204591268998_4444017874089332676_n.jpg?oh=5079f0b6dad509889744d92d087e4ae4&oe=59DF2D5A", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC"]}
           imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
           />
 
@@ -50,11 +50,11 @@ var Projects = React.createClass({
           title="My Hogwarts Sorting Hat"
           description="I created and published a skill for the Amazon Alexa skills store. This skill is an interactive adventure designed to make the user feel as though they are a student at Hogwarts being sorted into their house. It allows users to hear the Hogwarts sorting songs and then answer a series of questions about themselves. It uses these answers to determine which Hogwarts house they belong in and announces it as the sorting hat would. There are several Harry Potter easter eggs for those who explore all the possible interaction options."
           github="https://github.com/reedr3/my-hogwarts-sorting-hat"
-          liveApp=""
+          liveApp="https://www.amazon.com/gp/product/B075FZGK3Y"
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21432710_10156496141363998_8589420498723644292_n.jpg?oh=f1ec0758e88efa81f77ba446e2ec73d5&oe=5A13E9B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21432710_10156496141363998_8589420498723644292_n.jpg?oh=f1ec0758e88efa81f77ba446e2ec73d5&oe=5A13E9B7"]}
-          imageCaptions={["My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21432710_10156496141363998_8589420498723644292_n.jpg?oh=f1ec0758e88efa81f77ba446e2ec73d5&oe=5A13E9B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728027_10156502510253998_3300946840728705226_n.jpg?oh=ba6413adf8815926b168df0f5407d9e2&oe=5A550C91"]}
+          imageCaptions={["My Hogwarts Sorting Hat Alexa Skill Logo", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
         />
 
         <Project
@@ -64,7 +64,7 @@ var Projects = React.createClass({
           liveApp="http://pensieve.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg", "https://s-media-cache-ak0.pinimg.com/736x/51/a6/a7/51a6a7af68bf9dd792645ceb248ebd68.jpg"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC"]}
           imageCaptions={["img1", "img2", "img3"]}
           />
       </div>
