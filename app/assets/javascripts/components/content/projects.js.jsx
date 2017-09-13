@@ -42,7 +42,7 @@ var Projects = React.createClass({
           liveApp="http://ryker-reed.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420398_10156204591268998_4444017874089332676_n.jpg?oh=5079f0b6dad509889744d92d087e4ae4&oe=59DF2D5A", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC"]}
+          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420398_10156204591268998_4444017874089332676_n.jpg?oh=5079f0b6dad509889744d92d087e4ae4&oe=59DF2D5A", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740401_10156502744693998_1697612704895411539_n.jpg?oh=fb3188aef94120221140e22aa86f1f41&oe=5A44DE8A", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751707_10156502744688998_6671476796720686724_n.jpg?oh=25b4faf805c2fb66a70572a522cd8647&oe=5A122450"]}
           imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
           />
 
