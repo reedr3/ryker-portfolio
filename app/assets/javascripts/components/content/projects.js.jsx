@@ -20,7 +20,7 @@ var Projects = React.createClass({
           liveApp="http://pensieve.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740033_10156505665333998_7377973128175305145_n.jpg?oh=32ddbe76d35f0e1f6e5a9f5508edf23e&oe=5A5761B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
           imageCaptions={["img1", "img2", "img3"]}
         />
 
@@ -42,7 +42,7 @@ var Projects = React.createClass({
           liveApp="http://ryker-reed.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751362_10156505253728998_4893897845930376408_n.jpg?oh=e7cd2e22958723cbf3481cd6dffd3aba&oe=5A142B71", "https://scontent.xx.fbcdn.net/v/t1.0-9/19420398_10156204591268998_4444017874089332676_n.jpg?oh=5079f0b6dad509889744d92d087e4ae4&oe=59DF2D5A", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740401_10156502744693998_1697612704895411539_n.jpg?oh=fb3188aef94120221140e22aa86f1f41&oe=5A44DE8A", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751707_10156502744688998_6671476796720686724_n.jpg?oh=25b4faf805c2fb66a70572a522cd8647&oe=5A122450"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21743089_10156505665343998_7669925002054517281_n.jpg?oh=7551859616ce0291263b05a6b67c7a39&oe=5A14175B", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
           imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
         />
 
