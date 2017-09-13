@@ -9,8 +9,41 @@ var Projects = React.createClass({
           liveApp="http://gametheprogress.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Action Cable", "HTML5", "CSS"]}
-          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19511050_10156204503273998_4583540318610076101_n.jpg?oh=b6e525773c0069012fa035b792a4b010&oe=59CD5EF4", "https://scontent.xx.fbcdn.net/v/t1.0-9/19420774_10156204503438998_1597688921241360681_n.jpg?oh=ca85c9a183bb7488502745d5dad778f6&oe=59DB8C99", "https://scontent.xx.fbcdn.net/v/t1.0-9/19554717_10156204503198998_3784043851095858786_n.jpg?oh=dbe7841be96cd2cadff3fb6c2f42a936&oe=59D4DAF0"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740586_10156505280933998_5793197975455064558_n.jpg?oh=79401cb314d450e8421b451468f1fba9&oe=5A1A4D03", "https://scontent.xx.fbcdn.net/v/t1.0-9/19511050_10156204503273998_4583540318610076101_n.jpg?oh=b6e525773c0069012fa035b792a4b010&oe=59CD5EF4", "https://scontent.xx.fbcdn.net/v/t1.0-9/19420774_10156204503438998_1597688921241360681_n.jpg?oh=ca85c9a183bb7488502745d5dad778f6&oe=59DB8C99", "https://scontent.xx.fbcdn.net/v/t1.0-9/19554717_10156204503198998_3784043851095858786_n.jpg?oh=dbe7841be96cd2cadff3fb6c2f42a936&oe=59D4DAF0"]}
           imageCaptions={["(Class view) This is an example of a quiz question and multiple choice answers.", "(Teacher view) They can access student results for past quizzes from here or begin a new quiz.", "Register page with options to sign up as a teacher or student."]}
+        />
+
+        <Project
+          title="Pensieve"
+          description="Task management app."
+          github="https://github.com/reedr3/pensieve"
+          liveApp="http://pensieve.herokuapp.com/"
+          liveAppName="Heroku App"
+          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC"]}
+          imageCaptions={["img1", "img2", "img3"]}
+        />
+
+        <Project
+          title="My Hogwarts Sorting Hat"
+          description="I created and published a skill for the Amazon Alexa skills store. This skill is an interactive adventure designed to make the user feel as though they are a student at Hogwarts being sorted into their house. It allows users to hear the Hogwarts sorting songs and then answer a series of questions about themselves. It uses these answers to determine which Hogwarts house they belong in and announces it as the sorting hat would. There are several Harry Potter easter eggs for those who explore all the possible interaction options."
+          github="https://github.com/reedr3/my-hogwarts-sorting-hat"
+          liveApp="https://www.amazon.com/gp/product/B075FZGK3Y"
+          liveAppName="Alexa Skill"
+          skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21432710_10156496141363998_8589420498723644292_n.jpg?oh=f1ec0758e88efa81f77ba446e2ec73d5&oe=5A13E9B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728027_10156502510253998_3300946840728705226_n.jpg?oh=ba6413adf8815926b168df0f5407d9e2&oe=5A550C91"]}
+          imageCaptions={["My Hogwarts Sorting Hat Alexa Skill Logo", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
+        />
+
+        <Project
+          title="Ryker's Portfolio"
+          description="I created this portfolio website to showcase my learning process and accomplishments as a developer. The website was created using Rails and React and is hosted on Heroku."
+          github="https://github.com/reedr3/ryker-portfolio"
+          liveApp="http://ryker-reed.herokuapp.com/"
+          liveAppName="Heroku App"
+          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751362_10156505253728998_4893897845930376408_n.jpg?oh=e7cd2e22958723cbf3481cd6dffd3aba&oe=5A142B71", "https://scontent.xx.fbcdn.net/v/t1.0-9/19420398_10156204591268998_4444017874089332676_n.jpg?oh=5079f0b6dad509889744d92d087e4ae4&oe=59DF2D5A", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740401_10156502744693998_1697612704895411539_n.jpg?oh=fb3188aef94120221140e22aa86f1f41&oe=5A44DE8A", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751707_10156502744688998_6671476796720686724_n.jpg?oh=25b4faf805c2fb66a70572a522cd8647&oe=5A122450"]}
+          imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
         />
 
         <Project
@@ -35,38 +68,6 @@ var Projects = React.createClass({
           imageCaptions={["My Gender Identity Facts Alexa Skill Logo", "My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}
         />
 
-        <Project
-          title="Ryker's Portfolio"
-          description="I created this portfolio website to showcase my learning process and accomplishments as a developer. The website was created using Rails and React and is hosted on Heroku."
-          github="https://github.com/reedr3/ryker-portfolio"
-          liveApp="http://ryker-reed.herokuapp.com/"
-          liveAppName="Heroku App"
-          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420398_10156204591268998_4444017874089332676_n.jpg?oh=5079f0b6dad509889744d92d087e4ae4&oe=59DF2D5A", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740401_10156502744693998_1697612704895411539_n.jpg?oh=fb3188aef94120221140e22aa86f1f41&oe=5A44DE8A", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751707_10156502744688998_6671476796720686724_n.jpg?oh=25b4faf805c2fb66a70572a522cd8647&oe=5A122450"]}
-          imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
-          />
-
-        <Project
-          title="My Hogwarts Sorting Hat"
-          description="I created and published a skill for the Amazon Alexa skills store. This skill is an interactive adventure designed to make the user feel as though they are a student at Hogwarts being sorted into their house. It allows users to hear the Hogwarts sorting songs and then answer a series of questions about themselves. It uses these answers to determine which Hogwarts house they belong in and announces it as the sorting hat would. There are several Harry Potter easter eggs for those who explore all the possible interaction options."
-          github="https://github.com/reedr3/my-hogwarts-sorting-hat"
-          liveApp="https://www.amazon.com/gp/product/B075FZGK3Y"
-          liveAppName="Alexa Skill"
-          skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21432710_10156496141363998_8589420498723644292_n.jpg?oh=f1ec0758e88efa81f77ba446e2ec73d5&oe=5A13E9B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728027_10156502510253998_3300946840728705226_n.jpg?oh=ba6413adf8815926b168df0f5407d9e2&oe=5A550C91"]}
-          imageCaptions={["My Hogwarts Sorting Hat Alexa Skill Logo", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
-        />
-
-        <Project
-          title="Pensieve"
-          description="Task management app."
-          github="https://github.com/reedr3/pensieve"
-          liveApp="http://pensieve.herokuapp.com/"
-          liveAppName="Heroku App"
-          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751440_10156502273833998_6670164504178591194_n.jpg?oh=2a4921a7109dbd41a25e3ff978400c7f&oe=5A5CE8FC"]}
-          imageCaptions={["img1", "img2", "img3"]}
-          />
       </div>
     );
   }
