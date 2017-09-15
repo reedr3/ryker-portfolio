@@ -18,7 +18,7 @@ var Teaching = React.createClass({
 
         <HobbyTeaching
           title="Quirky Linguistics"
-          description="I teach classes for middle and high schoolers about Linguistics and all the weird and fascinating aspects of this wonderful field of study. I cover a variety of topics to give students an idea of what Linguistics is about and all the different subfields it covers. I teach them about everything from reduplication and infixation, to semantic satiation and the wug test. I also give them some interactive linguistic puzzles to solve using morpholigical analysis."
+          description="I teach classes for middle and high schoolers about Linguistics and all the weird and fascinating aspects of this wonderful field of study. I cover a variety of topics to give students an idea of what Linguistics is about and all the different subfields it covers. I teach them about everything from reduplication and infixation, to semantic satiation and the wug test. I also give them some interactive linguistic puzzles to solve using morphological analysis."
           modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19424478_10156205034558998_8934705063000381150_n.jpg?oh=26fb951d12fd3e24c11455588d89c282&oe=59D7F33C", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728070_10156502546493998_1302051397546872367_n.jpg?oh=d8b553c652642ff31e1c89b8b1a68d08&oe=5A5AB17E"]}
           imageCaptions={["Famous linguistics experiment called the wug test.", "Some of the topics covered in my Quirky Linguistics class."]}
         />
