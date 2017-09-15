@@ -31,7 +31,7 @@ var Projects = React.createClass({
           liveApp="https://www.amazon.com/gp/product/B075FZGK3Y"
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21432710_10156496141363998_8589420498723644292_n.jpg?oh=f1ec0758e88efa81f77ba446e2ec73d5&oe=5A13E9B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728027_10156502510253998_3300946840728705226_n.jpg?oh=ba6413adf8815926b168df0f5407d9e2&oe=5A550C91"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21752188_10156512000753998_973511847002104701_n.jpg?oh=ae1f727a1f250f149879782c2bb47a64&oe=5A13D79B", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21742972_10156512000758998_1124914126911441289_n.jpg?oh=a509db5338d2b590b738c9faef1ceabd&oe=5A5B826F", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728027_10156502510253998_3300946840728705226_n.jpg?oh=ba6413adf8815926b168df0f5407d9e2&oe=5A550C91"]}
           imageCaptions={["My Hogwarts Sorting Hat Alexa Skill Logo", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
         />
 
