@@ -20,7 +20,7 @@ var Hobbies = React.createClass({
           title="Cosplay"
           description="I love making costumes and just this year I finally attended my first Convention. I enjoy doing solo cosplays and also group cosplays with my friends. My favorite things to make are props and I'm especially good at making all manner of things out of duct tape."
           modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420734_10156204842748998_215921509591975239_n.jpg?oh=93ee9c93904fedf49a5b24d400b4a0f5&oe=59D36CB5", "https://scontent.xx.fbcdn.net/v/t1.0-9/19437598_10156204943868998_6577700759491729550_n.jpg?oh=438f38768a8afb110856fc29718af18b&oe=59C4674B", "https://scontent.xx.fbcdn.net/v/t1.0-9/19510113_10156204833768998_2838069383390061927_n.jpg?oh=8f887028124d478f8b00cb1b2e232620&oe=59DC59DC"]}
-          imageCaptions={["Commander Riker and Lieutenant Geordi meeting Lieutenant Uhura (the incredible Nichelle Nichols)!", "Milo, Kida, and Audrey from Atlantis the Lost Empire", "Rey and Finn from the Force Awakens"]}
+          imageCaptions={["Commander Riker and Lieutenant Geordi meeting Lieutenant Uhura (the incredible Nichelle Nichols)!", "Milo, Kida, and Audrey from Atlantis the Lost Empire.", "Rey and Finn from the Force Awakens."]}
         />
       </div>
     );
