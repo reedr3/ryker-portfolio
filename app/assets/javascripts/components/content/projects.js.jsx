@@ -3,6 +3,17 @@ var Projects = React.createClass({
     return (
       <div id="projects">
         <Project
+          title="My Portfolio"
+          description="I created this portfolio website to showcase my learning process and accomplishments as a developer. The website was created using Ruby on Rails and React."
+          github="https://github.com/reedr3/ryker-portfolio"
+          liveApp="http://ryker-reed.herokuapp.com/"
+          liveAppName="Heroku App"
+          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21743089_10156505665343998_7669925002054517281_n.jpg?oh=7551859616ce0291263b05a6b67c7a39&oe=5A14175B", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
+          imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
+        />
+
+        <Project
           title="Game the Progress"
           description="I designed and built Game the Progress, which is a web app created to give teachers a platform to custom build and play game quizzes with multiple students. I worked with a team of four other developers over an eight day period to go from initial pitch to functional product. I worked primarily on the backend ActiveRecord associations and Action Cable WebSockets interface. With my team I demoed the app in front of a live audience and it is available to use on Heroku."
           github="https://github.com/domlet/game_the_progress"
@@ -14,6 +25,17 @@ var Projects = React.createClass({
         />
 
         <Project
+          title="My Hogwarts Sorting Hat"
+          description="I created and published a skill for the Amazon Alexa skills store. This skill is an interactive adventure designed to make the user feel as though they are a student at Hogwarts being sorted into their house. It allows users to hear the Hogwarts sorting songs and then answer a series of questions about themselves. It uses these answers to determine which Hogwarts house they belong in and announces it as the sorting hat would. There are several Harry Potter easter eggs for those who explore all the possible interaction options."
+          github="https://github.com/reedr3/my-hogwarts-sorting-hat"
+          liveApp="https://www.amazon.com/gp/product/B075FZGK3Y"
+          liveAppName="Alexa Skill"
+          skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21752188_10156512000753998_973511847002104701_n.jpg?oh=ae1f727a1f250f149879782c2bb47a64&oe=5A13D79B", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21742972_10156512000758998_1124914126911441289_n.jpg?oh=a509db5338d2b590b738c9faef1ceabd&oe=5A5B826F", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728027_10156502510253998_3300946840728705226_n.jpg?oh=ba6413adf8815926b168df0f5407d9e2&oe=5A550C91"]}
+          imageCaptions={["My Hogwarts Sorting Hat Alexa Skill Logo", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
+        />
+
+        <Project
           title="Pensieve"
           description="Task management app."
           github="https://github.com/reedr3/pensieve"
@@ -22,28 +44,6 @@ var Projects = React.createClass({
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
           modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740033_10156505665333998_7377973128175305145_n.jpg?oh=32ddbe76d35f0e1f6e5a9f5508edf23e&oe=5A5761B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
           imageCaptions={["img1", "img2", "img3"]}
-        />
-
-        <Project
-          title="My Hogwarts Sorting Hat"
-          description="I created and published a skill for the Amazon Alexa skills store. This skill is an interactive adventure designed to make the user feel as though they are a student at Hogwarts being sorted into their house. It allows users to hear the Hogwarts sorting songs and then answer a series of questions about themselves. It uses these answers to determine which Hogwarts house they belong in and announces it as the sorting hat would. There are several Harry Potter easter eggs for those who explore all the possible interaction options."
-          github="https://github.com/reedr3/my-hogwarts-sorting-hat"
-          liveApp="https://www.amazon.com/gp/product/B075FZGK3Y"
-          liveAppName="Alexa Skill"
-          skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21432710_10156496141363998_8589420498723644292_n.jpg?oh=f1ec0758e88efa81f77ba446e2ec73d5&oe=5A13E9B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728027_10156502510253998_3300946840728705226_n.jpg?oh=ba6413adf8815926b168df0f5407d9e2&oe=5A550C91"]}
-          imageCaptions={["My Hogwarts Sorting Hat Alexa Skill Logo", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
-        />
-
-        <Project
-          title="Ryker's Portfolio"
-          description="I created this portfolio website to showcase my learning process and accomplishments as a developer. The website was created using Rails and React and is hosted on Heroku."
-          github="https://github.com/reedr3/ryker-portfolio"
-          liveApp="http://ryker-reed.herokuapp.com/"
-          liveAppName="Heroku App"
-          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21743089_10156505665343998_7669925002054517281_n.jpg?oh=7551859616ce0291263b05a6b67c7a39&oe=5A14175B", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
-          imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
         />
 
         <Project
@@ -67,7 +67,6 @@ var Projects = React.createClass({
           modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728084_10156502510243998_325431731644107850_n.jpg?oh=84c35aa92e07bcb4f40456a09d5177c1&oe=5A4DFB25", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751808_10156502510303998_3076977622821457210_n.jpg?oh=05f2198aabe1a0e5eadb2c00f1ea90e4&oe=5A487E30"]}
           imageCaptions={["My Gender Identity Facts Alexa Skill Logo", "My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}
         />
-
       </div>
     );
   }

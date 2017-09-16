@@ -50,6 +50,9 @@
    margin-top: 5px;
    border-radius: 10px;
  }
+ #header img:hover {
+   opacity: 0.7;
+ }
 
  #header #nav {
    position: absolute;
@@ -362,6 +365,9 @@
   margin: 20px 18%;
   padding: 5px;
 }
+#contact button:hover {
+  opacity: 0.7;
+}
 
 
 
@@ -370,29 +376,88 @@
 /* About */
 #about {
   width: 100%;
+  color: white;
+}
+#about img:hover {
+  opacity: 0.7;
+}
+#about h1 {
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: solid 2px white;
 }
 #intro {
-  height: 350px;
-  color: white;
+  height: 300px;
 }
 #intro img {
   float: left;
   border-radius: 50px;
 }
-#intro h2 {
+#intro p {
+  padding-top: 30px;
   margin-left: 350px;
+  font-size: 1.5em;
+  line-height: 1.5;
 }
 #skills-cloud {
-  height: 200px;
-  color: #0d83d8;
+  height: 350px;
 }
-#testimonials {
-  color: white;
+.skill-group {
+  margin: 10px auto;
+  display: block;
+  width: 95%;
+  max-width: 1100px;
+  text-align: center;
+}
+#skills-cloud p {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 2%;
+  font-weight: bold;
+  background-color: #0d83d8;
+  border: 3px solid #fff;
+}
+#skills-cloud p:hover{-ms-animation:wiggle .3s 2;-moz-animation:wiggle .3s 2;-webkit-animation:wiggle .3s 2;animation:wiggle .3s 2;}
+@-ms-keyframes wiggle{0%{-ms-transform:rotate(3deg);}50%{-ms-transform:rotate(-3deg);}100%{-ms-transform:rotate(3deg);}}
+@-moz-keyframes wiggle{0%{-moz-transform:rotate(3deg);}50%{-moz-transform:rotate(-3deg);}100%{-moz-transform:rotate(3deg);}}
+@-webkit-keyframes wiggle{0%{-webkit-transform:rotate(3deg);}50%{-webkit-transform:rotate(-3deg);}100%{-webkit-transform:rotate(3deg);}}
+@keyframes wiggle{0%{transform:rotate(3deg);}50%{transform:rotate(-3deg);}100%{transform:rotate(3deg);}}
+
+#top-skills {
+  font-size: 2em;
+}
+#middle-skills {
+  font-size: 1.6em;
+}
+#bottom-skills {
+  font-size: 1.2em;
+}
+.testimonial {
+  margin-bottom: 5px;
 }
 .testimonial img {
   border-radius: 100%;
   height: 200px;
   width: 200px;
+}
+.testimonial p {
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+.dialog {
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.head-and-name {
+  width: 18%;
+  display: inline-block;
+  margin: 0 1%;
+}
+.head-and-name h3 {
+  text-align: center;
 }
 
 
