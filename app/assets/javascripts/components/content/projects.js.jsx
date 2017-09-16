@@ -3,6 +3,17 @@ var Projects = React.createClass({
     return (
       <div id="projects">
         <Project
+          title="My Portfolio"
+          description="I created this portfolio website to showcase my learning process and accomplishments as a developer. The website was created using Ruby on Rails and React."
+          github="https://github.com/reedr3/ryker-portfolio"
+          liveApp="http://ryker-reed.herokuapp.com/"
+          liveAppName="Heroku App"
+          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21743089_10156505665343998_7669925002054517281_n.jpg?oh=7551859616ce0291263b05a6b67c7a39&oe=5A14175B", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
+          imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
+        />
+
+        <Project
           title="Game the Progress"
           description="I designed and built Game the Progress, which is a web app created to give teachers a platform to custom build and play game quizzes with multiple students. I worked with a team of four other developers over an eight day period to go from initial pitch to functional product. I worked primarily on the backend ActiveRecord associations and Action Cable WebSockets interface. With my team I demoed the app in front of a live audience and it is available to use on Heroku."
           github="https://github.com/domlet/game_the_progress"
@@ -11,17 +22,6 @@ var Projects = React.createClass({
           skills={["Ruby", "Rails", "Action Cable", "HTML5", "CSS"]}
           modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740586_10156505280933998_5793197975455064558_n.jpg?oh=79401cb314d450e8421b451468f1fba9&oe=5A1A4D03", "https://scontent.xx.fbcdn.net/v/t1.0-9/19511050_10156204503273998_4583540318610076101_n.jpg?oh=b6e525773c0069012fa035b792a4b010&oe=59CD5EF4", "https://scontent.xx.fbcdn.net/v/t1.0-9/19420774_10156204503438998_1597688921241360681_n.jpg?oh=ca85c9a183bb7488502745d5dad778f6&oe=59DB8C99", "https://scontent.xx.fbcdn.net/v/t1.0-9/19554717_10156204503198998_3784043851095858786_n.jpg?oh=dbe7841be96cd2cadff3fb6c2f42a936&oe=59D4DAF0"]}
           imageCaptions={["(Class view) This is an example of a quiz question and multiple choice answers.", "(Teacher view) They can access student results for past quizzes from here or begin a new quiz.", "Register page with options to sign up as a teacher or student."]}
-        />
-
-        <Project
-          title="Pensieve"
-          description="Task management app."
-          github="https://github.com/reedr3/pensieve"
-          liveApp="http://pensieve.herokuapp.com/"
-          liveAppName="Heroku App"
-          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740033_10156505665333998_7377973128175305145_n.jpg?oh=32ddbe76d35f0e1f6e5a9f5508edf23e&oe=5A5761B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
-          imageCaptions={["img1", "img2", "img3"]}
         />
 
         <Project
@@ -36,14 +36,14 @@ var Projects = React.createClass({
         />
 
         <Project
-          title="Ryker's Portfolio"
-          description="I created this portfolio website to showcase my learning process and accomplishments as a developer. The website was created using Rails and React and is hosted on Heroku."
-          github="https://github.com/reedr3/ryker-portfolio"
-          liveApp="http://ryker-reed.herokuapp.com/"
+          title="Pensieve"
+          description="Task management app."
+          github="https://github.com/reedr3/pensieve"
+          liveApp="http://pensieve.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21743089_10156505665343998_7669925002054517281_n.jpg?oh=7551859616ce0291263b05a6b67c7a39&oe=5A14175B", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
-          imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740033_10156505665333998_7377973128175305145_n.jpg?oh=32ddbe76d35f0e1f6e5a9f5508edf23e&oe=5A5761B7", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
+          imageCaptions={["img1", "img2", "img3"]}
         />
 
         <Project
@@ -67,7 +67,6 @@ var Projects = React.createClass({
           modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728084_10156502510243998_325431731644107850_n.jpg?oh=84c35aa92e07bcb4f40456a09d5177c1&oe=5A4DFB25", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751808_10156502510303998_3076977622821457210_n.jpg?oh=05f2198aabe1a0e5eadb2c00f1ea90e4&oe=5A487E30"]}
           imageCaptions={["My Gender Identity Facts Alexa Skill Logo", "My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}
         />
-
       </div>
     );
   }
