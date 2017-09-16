@@ -8,7 +8,12 @@ var About = React.createClass({
         </div>
 
         <div id="skills-cloud">
-          <p>cloud of skills with important ones bigger, react, js, rails</p>
+          <h1>Skills</h1>
+          <SkillsCloud
+            topSkills={["Javascript", "React", "Ruby on Rails", "HTML", "CSS"]}
+            middleSkills={["JQuery", "AJAX", "PostgreSQL", "SQLite", "ActiveRecord"]}
+            bottomSkills={["Python", "Node.js", "Amazon AWS Lambda", "Action Cable"]}
+          />
         </div>
 
         <div id="testimonials">
