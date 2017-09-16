@@ -389,6 +389,7 @@
   border-radius: 50px;
 }
 #intro p {
+  padding-top: 50px;
   margin-left: 350px;
   font-size: 1.5em;
 }
@@ -399,6 +400,14 @@
 #testimonials {
   color: white;
 }
+#testimonials h1 {
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: solid 2px white;
+}
+.testimonial {
+  margin-bottom: 5px;
+}
 .testimonial img {
   border-radius: 100%;
   height: 200px;
@@ -406,6 +415,20 @@
 }
 .testimonial p {
   font-size: 1.2em;
+}
+.dialog {
+  width: 80%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+.head-and-name {
+  width: 18%;
+  display: inline-block;
+  margin: 0 1%;
+}
+.head-and-name h3 {
+  text-align: center;
 }
 
 
