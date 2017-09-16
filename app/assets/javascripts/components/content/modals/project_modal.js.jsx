@@ -28,6 +28,11 @@ var ProjectModal = React.createClass({
           <h2 className="p-modal-title"> {this.props.title} </h2>
           <img className="p-modal-image" src={this.props.modalImages[this.props.currentModalImageIndex]} />
           <div className="p-modal-image-caption"> {this.props.imageCaptions[this.props.currentModalImageIndex]} </div>
+          <div className="p-modal-skills">
+            {this.props.skills.map(function(skill) {
+              return <p> {skill} </p>
+            }.bind(this))}
+          </div>
         </div>
       );
     }
