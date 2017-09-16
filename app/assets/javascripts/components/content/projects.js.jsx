@@ -4,14 +4,14 @@ var Projects = React.createClass({
       <div id="projects">
         <Project
           title="My Portfolio"
-          description="I created this portfolio website to showcase my learning process and accomplishments as a developer. The website was created using Ruby on Rails and React."
+          description="I created this portfolio website to showcase my coding projects, personal accomplishments, volunteer work, and hobbies."
           github="https://github.com/reedr3/ryker-portfolio"
           liveApp="http://ryker-reed.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21462249_10156514832993998_1366816858867923594_n.jpg?oh=39f337c10a5c590f1b90b71e99c0be93&oe=5A5FFEAF"
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
-          imageCaptions={["Projects Page", "Teaching Page", "Hobbies Page"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
+          imageCaptions={["", "The About page.", "The Projects page.", "The Teaching page.", "The Hobbies page."]}
         />
 
         <Project
@@ -22,8 +22,8 @@ var Projects = React.createClass({
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Action Cable", "HTML5", "CSS"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21731140_10156514867528998_6705568416102017004_n.jpg?oh=bb52c8f4be3fd5c6390660f4f0158474&oe=5A4931BD"
-          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19511050_10156204503273998_4583540318610076101_n.jpg?oh=b6e525773c0069012fa035b792a4b010&oe=59CD5EF4", "https://scontent.xx.fbcdn.net/v/t1.0-9/19420774_10156204503438998_1597688921241360681_n.jpg?oh=ca85c9a183bb7488502745d5dad778f6&oe=59DB8C99", "https://scontent.xx.fbcdn.net/v/t1.0-9/19554717_10156204503198998_3784043851095858786_n.jpg?oh=dbe7841be96cd2cadff3fb6c2f42a936&oe=59D4DAF0"]}
-          imageCaptions={["(Class view) This is an example of a quiz question and multiple choice answers.", "(Teacher view) They can access student results for past quizzes from here or begin a new quiz.", "Register page with options to sign up as a teacher or student."]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21433121_10156514984853998_8516371410498667700_n.jpg?oh=a4e7000899627894ec738953aa0b9b21&oe=5A173D35", "https://scontent.xx.fbcdn.net/v/t1.0-9/19511050_10156204503273998_4583540318610076101_n.jpg?oh=b6e525773c0069012fa035b792a4b010&oe=59CD5EF4", "https://scontent.xx.fbcdn.net/v/t1.0-9/19420774_10156204503438998_1597688921241360681_n.jpg?oh=ca85c9a183bb7488502745d5dad778f6&oe=59DB8C99", "https://scontent.xx.fbcdn.net/v/t1.0-9/19554717_10156204503198998_3784043851095858786_n.jpg?oh=dbe7841be96cd2cadff3fb6c2f42a936&oe=59D4DAF0"]}
+          imageCaptions={["", "An example of a quiz question and multiple choice answers. This is the class view shown to students.", "The teacher's page, where they can access student results for past quizzes or begin a new quiz.", "The registration page, with options to sign up as a teacher or student."]}
         />
 
         <Project
@@ -35,19 +35,19 @@ var Projects = React.createClass({
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21752188_10156512000753998_973511847002104701_n.jpg?oh=ae1f727a1f250f149879782c2bb47a64&oe=5A13D79B"
           modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21742972_10156512000758998_1124914126911441289_n.jpg?oh=a509db5338d2b590b738c9faef1ceabd&oe=5A5B826F", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728027_10156502510253998_3300946840728705226_n.jpg?oh=ba6413adf8815926b168df0f5407d9e2&oe=5A550C91"]}
-          imageCaptions={["My Hogwarts Sorting Hat Alexa Skill Logo", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
+          imageCaptions={["", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
         />
 
         <Project
           title="Pensieve"
-          description="Task management app."
+          description="I created Pensieve, a web app designed to aid and increase productivity by allowing users to efficiently compartmentalize and sort through tasks."
           github="https://github.com/reedr3/pensieve"
           liveApp="http://pensieve.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740033_10156505665333998_7377973128175305145_n.jpg?oh=32ddbe76d35f0e1f6e5a9f5508edf23e&oe=5A5761B7"
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
-          imageCaptions={["img1", "img2", "img3"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
+          imageCaptions={["", "The home page.", "The view for a particular category.", "The view for adding a new task."]}
         />
 
         <Project
@@ -58,8 +58,8 @@ var Projects = React.createClass({
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740420_10156502510233998_7107315001978192820_n.jpg?oh=353cb1da5b8db7cd5e931e860a216bac&oe=5A1B6776"
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728266_10156502510258998_1411791451728250120_n.jpg?oh=384e747da38dbf0b762cd4765207d544&oe=5A4B665A"]}
-          imageCaptions={["My Linguistic Facts Alexa Skill Logo", "My Linguistic Facts on the Alexa skills store, showing example invocation phrases."]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740420_10156502510233998_7107315001978192820_n.jpg?oh=353cb1da5b8db7cd5e931e860a216bac&oe=5A1B6776", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728266_10156502510258998_1411791451728250120_n.jpg?oh=384e747da38dbf0b762cd4765207d544&oe=5A4B665A"]}
+          imageCaptions={["", "My Linguistic Facts on the Alexa skills store, showing example invocation phrases."]}
         />
 
         <Project
@@ -70,8 +70,8 @@ var Projects = React.createClass({
           liveAppName="Alexa Skill"
           skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728084_10156502510243998_325431731644107850_n.jpg?oh=84c35aa92e07bcb4f40456a09d5177c1&oe=5A4DFB25"
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751808_10156502510303998_3076977622821457210_n.jpg?oh=05f2198aabe1a0e5eadb2c00f1ea90e4&oe=5A487E30"]}
-          imageCaptions={["My Gender Identity Facts Alexa Skill Logo", "My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728084_10156502510243998_325431731644107850_n.jpg?oh=84c35aa92e07bcb4f40456a09d5177c1&oe=5A4DFB25", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751808_10156502510303998_3076977622821457210_n.jpg?oh=05f2198aabe1a0e5eadb2c00f1ea90e4&oe=5A487E30"]}
+          imageCaptions={["", "My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}
         />
       </div>
     );
