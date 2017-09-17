@@ -13,7 +13,7 @@ var Navbar = React.createClass({
       <nav id="nav">
         <ul>
           {this.props.categories.map(function(category) {
-              return <li> <a className={this.isCurrentCategory(category)} href={"/categories/" + category.id}> {category.title} </a> </li>
+              return <li> <a className={this.isCurrentCategory(category)} href={"/pages/" + category.id}> {category.title} </a> </li>
             }.bind(this))}
         </ul>
       </nav>
