@@ -1,5 +1,7 @@
 # My Portfolio
 
+Logo IMG
+
 I created this website to showcase my coding projects, personal accomplishments, volunteer work, and hobbies. Building this website from scratch helped me further practice and refine my React and Ruby on Rails skills, as well as my web design skills.
 
 ### Live Website on Heroku: http://ryker-reed.herokuapp.com/
