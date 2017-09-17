@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :contact_emails
-  resources :categories do
+  resources :categories, path: "pages" do
     resources :blocks
   end
 

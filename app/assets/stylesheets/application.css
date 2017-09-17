@@ -314,6 +314,17 @@
   text-align: center;
   color: white;
 }
+#contact #contact-details {
+  width: 100%;
+  text-align: center;
+}
+#contact p {
+  margin: 0 auto;
+  padding: 0 25px;
+  color: #222;
+  display: inline-block;
+  font-size: 1.5em;
+}
 #contact form {
   position: relative;
   width: 60%;

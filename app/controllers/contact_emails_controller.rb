@@ -7,7 +7,7 @@ class ContactEmailsController < ApplicationController
     @contact_email = ContactEmail.new(name: params[:name], email: params[:email], message: params[:message])
     if @contact_email.save
       ContactMailer.contact_email(@contact_email.name, @contact_email.email, @contact_email.message).deliver_now
-      redirect_to '/categories/6'
+      redirect_to '/pages/6'
     end
   end
 end
