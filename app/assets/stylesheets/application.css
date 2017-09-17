@@ -490,8 +490,8 @@
   max-width: 900px;
   text-align: center;
   color: white;
-  padding: 10px 0;
-  height: 30px;
+  padding: 0 0 20px 0;
+  height: 20px;
 }
 
 /* Modal Image */
@@ -499,13 +499,13 @@
     margin: 10px auto;
     display: block;
     width: 50%;
-    height: 450px;
+    height: 420px;
     max-width: 900px;
 }
 
 /* Modal Logo Image */
 .modal-logo {
-  margin-top: 30px;
+  margin-top: 20px;
   height: 250px;
   max-width: 350px;
 }
@@ -532,7 +532,7 @@
     color: white;
     font-size: 1.4em;
     padding: 20px 0;
-    height: 200px;
+    height: 180px;
 }
 
 /* Skills used to make project (listed under modal caption)*/
