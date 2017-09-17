@@ -4,6 +4,15 @@ I created this website to showcase my coding projects, personal accomplishments,
 
 ## Live Website on Heroku: http://ryker-reed.herokuapp.com/
 
+## The Stack
+- Ruby on Rails
+- Javascript
+- React
+- HTML
+- CSS
+
+## Website Overview
+
 ### About Page
 Provides an introduction, a list of my web developer skills, and a series of testimonials from other web developers I've worked with.
 IMG
@@ -17,11 +26,3 @@ IMG
 ### Hobbies Page
 
 ### Contact Page
-
-
-## The Stack
-- Ruby on Rails
-- Javascript
-- React
-- HTML
-- CSS
