@@ -1,24 +1,27 @@
-# README
+# My Portfolio
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+I created this website to showcase my coding projects, personal accomplishments, volunteer work, and hobbies. Building this website from scratch helped me further practice and refine my React and Ruby on Rails skills, as well as my web design skills.
 
-Things you may want to cover:
+## Live Website on Heroku: http://ryker-reed.herokuapp.com/
 
-* Ruby version
+### About Page
+Provides an introduction, a list of my web developer skills, and a series of testimonials from other web developers I've worked with.
+IMG
 
-* System dependencies
+### Projects Page
 
-* Configuration
+### Teaching Page
 
-* Database creation
+### Publications Page
 
-* Database initialization
+### Hobbies Page
 
-* How to run the test suite
+### Contact Page
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+## The Stack
+- Ruby on Rails
+- Javascript
+- React
+- HTML
+- CSS
