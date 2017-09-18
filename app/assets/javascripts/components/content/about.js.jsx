@@ -10,9 +10,9 @@ var About = React.createClass({
         <div id="skills-cloud">
           <h1>Skills</h1>
           <SkillsCloud
-            topSkills={["Javascript", "React", "Ruby on Rails", "HTML", "CSS"]}
-            middleSkills={["JQuery", "AJAX", "PostgreSQL", "SQLite", "ActiveRecord"]}
-            bottomSkills={["Python", "Node.js", "Amazon AWS Lambda", "Action Cable"]}
+            topSkills={["JavaScript", "React", "Ruby on Rails", "HTML", "CSS"]}
+            middleSkills={["jQuery", "AJAX", "PostgreSQL", "SQLite", "ActiveRecord"]}
+            bottomSkills={["Python", "Node.js", "AWS Lambda", "Action Cable"]}
           />
         </div>
 
