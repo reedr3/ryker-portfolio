@@ -8,7 +8,7 @@ var Projects = React.createClass({
           github="https://github.com/reedr3/ryker-portfolio"
           liveApp="http://ryker-reed.herokuapp.com/"
           liveAppName="Heroku App"
-          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
+          skills={["Ruby", "Rails", "JavaScript", "React", "HTML5", "CSS"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21462249_10156514832993998_1366816858867923594_n.jpg?oh=39f337c10a5c590f1b90b71e99c0be93&oe=5A5FFEAF"
           modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21462421_10156515180118998_5119511060757005911_n.jpg?oh=8d68ef8edfa8d68bf54374d562d29d5e&oe=5A5A637E", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21752058_10156515112828998_7854996275995824122_n.jpg?oh=c2f186cd9571709af0e022eab89990e2&oe=5A5C6873", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21462941_10156515165628998_1524018878667669858_n.jpg?oh=3439772e715bb379c934e512e360af14&oe=5A550806", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21739995_10156515165658998_8383588823318379725_n.jpg?oh=cd2ac05e8b39db3ec1243683dc3d2c8d&oe=5A41D86D", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21731209_10156515165668998_3982420408126279535_n.jpg?oh=9674ddc2948183aaae0fef1a9c4ab645&oe=5A59D72A"]}
           imageCaptions={["", "The About page.", "The Projects page.", "The Teaching page.", "The Hobbies page."]}
@@ -32,7 +32,7 @@ var Projects = React.createClass({
           github="https://github.com/reedr3/my-hogwarts-sorting-hat"
           liveApp="https://www.amazon.com/gp/product/B075FZGK3Y"
           liveAppName="Alexa Skill"
-          skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
+          skills={["JavaScript", "Node.js", "AWS Lambda"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21739951_10156515359463998_5371302477692199321_n.jpg?oh=2eae060814cab9c2ff6bc4a1224174f3&oe=5A5C9F3E"
           modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21752279_10156515359458998_9158730732599235780_n.jpg?oh=2ec2ed299d835b1fe30711b895b09598&oe=5A166FFC", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728027_10156502510253998_3300946840728705226_n.jpg?oh=ba6413adf8815926b168df0f5407d9e2&oe=5A550C91"]}
           imageCaptions={["", "My Hogwarts Sorting Hat on the Alexa skills store, showing example invocation phrases."]}
@@ -44,7 +44,7 @@ var Projects = React.createClass({
           github="https://github.com/reedr3/pensieve"
           liveApp="http://pensieve.herokuapp.com/"
           liveAppName="Heroku App"
-          skills={["Ruby", "Rails", "Javascript", "React", "HTML5", "CSS"]}
+          skills={["Ruby", "Rails", "JavaScript", "React", "HTML5", "CSS"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740033_10156505665333998_7377973128175305145_n.jpg?oh=32ddbe76d35f0e1f6e5a9f5508edf23e&oe=5A5761B7"
           modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
           imageCaptions={["", "The home page.", "The view for a particular category.", "The view for adding a new task."]}
@@ -56,7 +56,7 @@ var Projects = React.createClass({
           github="https://github.com/reedr3/my-linguistic-facts"
           liveApp="https://www.amazon.com/gp/product/B01MAWGFIG"
           liveAppName="Alexa Skill"
-          skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
+          skills={["JavaScript", "Node.js", "AWS Lambda"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21433057_10156515419303998_2105489843247705331_n.jpg?oh=9c59d9c8551f3c6d406c90cb128c21f8&oe=5A5CCE18"
           modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21433198_10156515419298998_7904922255306573446_n.jpg?oh=de80e492d60a37bfeda13aa1fc4c2a85&oe=5A5197D0", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728266_10156502510258998_1411791451728250120_n.jpg?oh=384e747da38dbf0b762cd4765207d544&oe=5A4B665A"]}
           imageCaptions={["", "My Linguistic Facts on the Alexa skills store, showing example invocation phrases."]}
@@ -68,7 +68,7 @@ var Projects = React.createClass({
           github="https://github.com/reedr3/my-gender-identity-facts"
           liveApp="https://www.amazon.com/gp/product/B0736FC2LX"
           liveAppName="Alexa Skill"
-          skills={["Javascript", "Node.js", "Amazon AWS Lambda"]}
+          skills={["JavaScript", "Node.js", "AWS Lambda"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21462922_10156515475118998_5678893124895420001_n.jpg?oh=e802377dee2966e62d568056eb039d19&oe=5A5D3567"
           modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21731256_10156515469238998_7734718780192932514_n.jpg?oh=9cc5b65fa1a01deead24b39982fed4ea&oe=5A5894ED", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21751808_10156502510303998_3076977622821457210_n.jpg?oh=05f2198aabe1a0e5eadb2c00f1ea90e4&oe=5A487E30"]}
           imageCaptions={["", "My Gender Identity Facts on the Alexa skills store, showing example invocation phrases."]}

@@ -6,7 +6,7 @@ var Contact = React.createClass({
         <div id="contact-details">
           <p>Ryker Reed</p>
           <p>reedr@alum.mit.edu</p>
-          <p>Boston, MA</p>
+          <p>Cambridge, MA</p>
         </div>
         <form action='/contact_emails' method='post'>
           <input type='hidden' name='authenticity_token' value={this.props.authenticityToken} />
