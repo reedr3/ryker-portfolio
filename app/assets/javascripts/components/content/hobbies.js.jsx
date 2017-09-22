@@ -5,7 +5,7 @@ var Hobbies = React.createClass({
         <HobbyTeaching
           title="Barnstormers Softball"
           description="I play first base for the Barnstormers softball team. We are a team for trans and gender non-conforming players, who are so often excluded from sports. Along with our sibling team the Trailblazers we aim to make a place for trans players and make sports more welcoming to everyone. We play in the Boston Beantown league."
-          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19424450_10156204688203998_7388505682361865170_n.jpg?oh=ec77ee4ebe379d1b457474a20f1524f8&oe=59C3D4F3", "https://scontent.xx.fbcdn.net/v/t1.0-9/19429975_10156204681498998_6473991747997450750_n.jpg?oh=016291af76dded0d984332df74ed58f7&oe=59D6CBEA", "https://scontent.xx.fbcdn.net/v/t1.0-9/19437659_10156204684953998_4328046667440108543_n.jpg?oh=1fa9a58b283206baf05a488a841a514d&oe=59DA4C25"]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/19424450_10156204688203998_7388505682361865170_n.jpg?oh=5023f979ae50b5fd841a2090d9bb7a57&oe=5A3A7BF3", "https://scontent.xx.fbcdn.net/v/t1.0-9/19429975_10156204681498998_6473991747997450750_n.jpg?oh=016291af76dded0d984332df74ed58f7&oe=59D6CBEA", "https://scontent.xx.fbcdn.net/v/t1.0-9/19437659_10156204684953998_4328046667440108543_n.jpg?oh=1fa9a58b283206baf05a488a841a514d&oe=59DA4C25"]}
           imageCaptions={["Barnstormers and Trailblazers joint team photo (2016)", "Barnstormers celebrating a double header victory (2015)", "Ryker at bat (2016)"]}
         />
 
@@ -19,7 +19,7 @@ var Hobbies = React.createClass({
         <HobbyTeaching
           title="Cosplay"
           description="I love making costumes and just this year I finally attended my first Convention. I enjoy doing solo cosplays and also group cosplays with my friends. My favorite things to make are props and I'm especially good at making all manner of things out of duct tape."
-          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420734_10156204842748998_215921509591975239_n.jpg?oh=93ee9c93904fedf49a5b24d400b4a0f5&oe=59D36CB5", "https://scontent.xx.fbcdn.net/v/t1.0-9/19437598_10156204943868998_6577700759491729550_n.jpg?oh=438f38768a8afb110856fc29718af18b&oe=59C4674B", "https://scontent.xx.fbcdn.net/v/t1.0-9/19510113_10156204833768998_2838069383390061927_n.jpg?oh=8f887028124d478f8b00cb1b2e232620&oe=59DC59DC"]}
+          modalImages={["https://scontent.xx.fbcdn.net/v/t1.0-9/19420734_10156204842748998_215921509591975239_n.jpg?oh=93ee9c93904fedf49a5b24d400b4a0f5&oe=59D36CB5", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/19437598_10156204943868998_6577700759491729550_n.jpg?oh=c9d77188a3ed82157ffc6fa90979449c&oe=5A3B0E4B", "https://scontent.xx.fbcdn.net/v/t1.0-9/19510113_10156204833768998_2838069383390061927_n.jpg?oh=8f887028124d478f8b00cb1b2e232620&oe=59DC59DC"]}
           imageCaptions={["Commander Riker and Lieutenant Geordi meeting Lieutenant Uhura (the incredible Nichelle Nichols)!", "Milo, Kida, and Audrey from Atlantis the Lost Empire.", "Rey and Finn from the Force Awakens."]}
         />
       </div>

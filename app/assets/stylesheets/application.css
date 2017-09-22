@@ -260,8 +260,10 @@
   text-align: center;
 }
 .publication img.image-with-modal {
-  width: 50%;
+  width: 27%;
   height: 400px;
+  margin-left: 12%;
+  margin-right: 8%;
   display: inline-block;
   border-radius: 5px;
   cursor: pointer;
@@ -274,16 +276,18 @@
   width: 45%;
   display: inline-block;
   vertical-align: top;
-  margin: 0 0 0 2%;
+  margin: 5px 0 0 4%;
+  /*border: 1px solid red;*/
 }
 .publication p {
   color: white;
-  font-size: 1.2em;
+  font-size: 1.26em;
 }
 .publication div.external-links {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 0 0 8%;
   text-align: center;
+  /*border: 1px solid yellow;*/
 }
 .publication a {
   display: inline-block;
@@ -579,8 +583,8 @@
     margin: 20px auto;
     display: block;
     width: 50%;
-    height: 500px;
-    max-width: 900px;
+    height: 480px;
+    max-width: 360px;
 }
 
 /* Add Animation - Zoom in the Modal */

@@ -4,7 +4,7 @@ var About = React.createClass({
       <div id="about">
         <div id="intro">
           <a href="https://www.linkedin.com/in/ryker-reed/"> <img src="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21558535_10156524233113998_8090512483609019131_n.jpg?oh=04ff717f664a28c1a6c4608530d060b9&oe=5A4E2AFA"/> </a>
-          <p>Hi, I'm Ryker! I'm a software engineer who's passionate about life-long learning and creating beautiful and meaningful things to help others. Welcome to my portfolio! I've got a wide range of accomplishments and interests which would make me a valuable member of any team. Have a look around and don't hesitate to reach out through my contact page! </p>
+          <p>Hi, I'm Ryker! I'm a software engineer who's passionate about life-long learning and creating beautiful and meaningful things to help others. Welcome to my portfolio! I've got a wide range of accomplishments and skills which would make me a valuable member of any team. Have a look around and don't hesitate to reach out through my contact page! </p>
         </div>
 
         <div id="skills-cloud">
