@@ -29,6 +29,7 @@ Lists three of the classes I teach. Gives an overview of each class, as well as 
 
 ### Publications Page
 Showcases my published novella, The Turing Test. Provides front cover illustration, back cover summary, and a link to the published story on the Kindle Store.
+![Portfolio Publications Page](/public/portfolio_publications.png?raw=true "Portfolio Publications Page")
 
 ### Hobbies Page
 Details some of my favorite hobbies and pastimes. Shows descriptions and image galleries.
@@ -36,3 +37,5 @@ Details some of my favorite hobbies and pastimes. Shows descriptions and image g
 
 ### Contact Page
 Provides a contact form for potential employers or recruiters to reach out.
+![Portfolio Contact Page](/public/portfolio_contact.png?raw=true "Portfolio Contact Page")
+
