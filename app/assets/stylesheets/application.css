@@ -658,7 +658,7 @@
 
 
 /* media query to make styling look nice between 800 and 1100 pixels wide */
-@media (min-width: 800px) and (max-width: 1100px) {
+@media (min-width: 840px) and (max-width: 1100px) {
   /* About Page */
   .testimonial img {
     height: 140px;
@@ -674,10 +674,31 @@
 }
 
 /* media query designed to make styling look nice below 800 pixels wide. not designed to go below 500px wide */
-@media (max-width: 799px) {
+@media (max-width: 839px) {
   /* Header and Footer */
-  
+  #header {
+    height: 145px;
+  }
+  #header img {
+    height: 70px;
+    margin-top: 15px;
+  }
+  #header #nav {
+    width: 85%;
+  }
+  #header #nav li a.current-category {
+    font-size: 1.3em;
+    border-bottom: 3px solid #0d83d8;
+  }
+  #header #nav li a.not-current-category {
+    font-size: 1.3em;
+    border-bottom: 3px solid #222;
+  }
+
   /* About Page */
+  #intro img {
+    margin-top: 20px;
+  }
   .testimonial img {
     height: 90px;
     width: 90px;
@@ -695,6 +716,7 @@
   /* About Page */
   #intro img {
     float: none;
+    margin-top: 50px;
   }
   #intro p {
     padding-top: 10px;
