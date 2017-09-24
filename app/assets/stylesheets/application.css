@@ -654,6 +654,9 @@
 
 
 
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/* Media Queries */
 
 /* media query to make styling look nice between 800 and 1100 pixels wide */
 @media (min-width: 840px) and (max-width: 1100px) {
@@ -671,6 +674,7 @@
   }
 }
 
+/* media query for below 900px */
 @media (max-width: 889px) {
   /* Contact Page */
   #contact p {
@@ -681,7 +685,7 @@
   }
 }
 
-/* media query designed to make styling look nice below 800 pixels wide. not designed to go below 500px wide */
+/* media query for below 840px */
 @media (max-width: 839px) {
   /* Header and Footer */
   #header {
@@ -726,8 +730,41 @@
   .dialog {
     width: 70%;
   }
+
+  /* Projects Page */
+  .project img.image-with-modal {
+    height: 200px;
+  }
+
+  /* Modals */
+  .p-modal-image {
+      width: 60%;
+      height: 380px;
+  }
+  .ht-modal-image {
+      width: 60%;
+      height: 430px;
+  }
+  .pub-modal-image {
+      height: 440px;
+  }
+  .modal-logo {
+    height: 210px;
+    max-width: 300px;
+  }
+  .p-modal-text {
+      font-size: 1.2em;
+      height: 200px;
+  }
+  .left {
+      top: 200px;
+  }
+  .right {
+      top: 200px;
+  }
 }
 
+/* media query for below 700px */
 @media (max-width: 699px) {
   /* Header and Footer */
   #header img {
@@ -783,13 +820,59 @@
   #contact form {
     width: 90%;
   }
+
+  /* Modals */
+  .p-modal-image {
+      width: 70%;
+      height: 340px;
+  }
+  .ht-modal-image {
+      width: 70%;
+      height: 400px;
+  }
+  .modal-logo {
+    height: 210px;
+    max-width: 300px;
+  }
+  .p-modal-text {
+      font-size: 1.2em;
+      height: 200px;
+  }
 }
 
+/* media query for below 600px */
 @media (max-width: 599px) {
+  /* Projects Page */
+  .project img.image-with-modal {
+    height: 150px;
+  }
+
+  /* Contact Page */
   #contact form {
     height: 500px;
   }
   #contact #form-message textarea {
     margin-left: 0;
+  }
+
+  /* Modals */
+  .p-modal-image {
+      width: 60%;
+      height: 280px;
+  }
+  .ht-modal-image {
+      width: 65%;
+      height: 340px;
+  }
+  .pub-modal-image {
+      height: 420px;
+  }
+  .modal-logo {
+    height: 190px;
+    max-width: 270px;
+  }
+  .p-modal-text {
+      font-size: 1em;
+      height: 180px;
   }
 }
