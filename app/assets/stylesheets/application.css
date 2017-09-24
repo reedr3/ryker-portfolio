@@ -277,7 +277,6 @@
   display: inline-block;
   vertical-align: top;
   margin: 5px 0 0 4%;
-  /*border: 1px solid red;*/
 }
 .publication p {
   color: white;
@@ -287,7 +286,6 @@
   width: 80%;
   margin: 0 0 0 8%;
   text-align: center;
-  /*border: 1px solid yellow;*/
 }
 .publication a {
   display: inline-block;
@@ -401,9 +399,6 @@
   padding-bottom: 5px;
   border-bottom: solid 2px white;
 }
-#intro {
-  height: 300px;
-}
 #intro img {
   float: left;
   border-radius: 50px;
@@ -415,7 +410,7 @@
   line-height: 1.5;
 }
 #skills-cloud {
-  height: 350px;
+  margin-top: 110px;
 }
 .skill-group {
   margin: 10px auto;
@@ -447,6 +442,9 @@
 }
 #bottom-skills {
   font-size: 1.2em;
+}
+#testimonials {
+  margin-top: 50px;
 }
 .testimonial {
   margin-bottom: 5px;
@@ -649,4 +647,232 @@
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/* Media Queries */
+
+/* media query to make styling look nice between 800 and 1100 pixels wide */
+@media (min-width: 840px) and (max-width: 1100px) {
+  /* About Page */
+  .testimonial img {
+    height: 140px;
+    width: 140px;
+  }
+  .testimonial p {
+    font-size: 1em;
+    line-height: 1.3;
+  }
+  .dialog {
+    width: 70%;
+  }
+}
+
+/* media query for below 900px */
+@media (max-width: 889px) {
+  /* Contact Page */
+  #contact p {
+    font-size: 1.3em;
+  }
+  #contact form {
+    width: 80%;
+  }
+}
+
+/* media query for below 840px */
+@media (max-width: 839px) {
+  /* Header and Footer */
+  #header {
+    height: 145px;
+  }
+  #header img {
+    height: 70px;
+    margin-top: 15px;
+  }
+  #header #nav {
+    width: 85%;
+  }
+  #header #nav li a.current-category {
+    font-size: 1.3em;
+    border-bottom: 3px solid #0d83d8;
+  }
+  #header #nav li a.not-current-category {
+    font-size: 1.3em;
+    border-bottom: 3px solid #222;
+  }
+
+  #content {
+    padding-top: 155px;
+  }
+
+ #footer #icons {
+   width: 40%;
+ }
+
+  /* About Page */
+  #intro img {
+    margin-top: 20px;
+  }
+  .testimonial img {
+    height: 90px;
+    width: 90px;
+  }
+  .testimonial p {
+    font-size: .8em;
+    line-height: 1.1;
+  }
+  .dialog {
+    width: 70%;
+  }
+
+  /* Projects Page */
+  .project img.image-with-modal {
+    height: 200px;
+  }
+
+  /* Modals */
+  .p-modal-image {
+      width: 60%;
+      height: 380px;
+  }
+  .ht-modal-image {
+      width: 60%;
+      height: 430px;
+  }
+  .pub-modal-image {
+      height: 440px;
+  }
+  .modal-logo {
+    height: 210px;
+    max-width: 300px;
+  }
+  .p-modal-text {
+      font-size: 1.2em;
+      height: 200px;
+  }
+  .left {
+      top: 200px;
+  }
+  .right {
+      top: 200px;
+  }
+}
+
+/* media query for below 700px */
+@media (max-width: 699px) {
+  /* Header and Footer */
+  #header img {
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  /* About Page */
+  #intro img {
+    float: none;
+  }
+  #intro p {
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 1.3em;
+    line-height: 1.3;
+  }
+
+  /* Hobbies and Teaching Pages */
+  .hobby-teaching img.image-with-modal {
+    width: 80%;
+    height: 350px;
+  }
+  .hobby-teaching div.ht-description {
+    width: 80%;
+    margin: 15px 0 0 0;
+  }
+  .hobby-teaching p {
+    font-size: 1.3em;
+  }
+
+  /* Publications Page */
+  .publication img.image-with-modal {
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    display: block;
+  }
+
+  .publication div.publication-description {
+    width: 80%;
+    display: block;
+    margin: 5px auto;
+  }
+  .publication p {
+    font-size: 1.1em;
+  }
+
+  /* Contact Page */
+  #contact p {
+    font-size: 1.1em;
+  }
+  #contact form {
+    width: 90%;
+  }
+
+  /* Modals */
+  .p-modal-image {
+      width: 70%;
+      height: 340px;
+  }
+  .ht-modal-image {
+      width: 70%;
+      height: 400px;
+  }
+  .modal-logo {
+    height: 210px;
+    max-width: 300px;
+  }
+  .p-modal-text {
+      font-size: 1.2em;
+      height: 200px;
+  }
+}
+
+/* media query for below 600px */
+@media (max-width: 599px) {
+  /* Projects Page */
+  .project img.image-with-modal {
+    height: 150px;
+  }
+
+  /* Contact Page */
+  #contact form {
+    height: 500px;
+  }
+  #contact #form-message textarea {
+    margin-left: 0;
+  }
+
+  /* Modals */
+  .p-modal-image {
+      width: 60%;
+      height: 280px;
+  }
+  .ht-modal-image {
+      width: 65%;
+      height: 340px;
+  }
+  .pub-modal-image {
+      height: 420px;
+  }
+  .modal-logo {
+    height: 190px;
+    max-width: 270px;
+  }
+  .p-modal-text {
+      font-size: 1em;
+      height: 180px;
+  }
 }
