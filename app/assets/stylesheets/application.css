@@ -277,7 +277,6 @@
   display: inline-block;
   vertical-align: top;
   margin: 5px 0 0 4%;
-  /*border: 1px solid red;*/
 }
 .publication p {
   color: white;
@@ -287,7 +286,6 @@
   width: 80%;
   margin: 0 0 0 8%;
   text-align: center;
-  /*border: 1px solid yellow;*/
 }
 .publication a {
   display: inline-block;
@@ -673,6 +671,16 @@
   }
 }
 
+@media (max-width: 889px) {
+  /* Contact Page */
+  #contact p {
+    font-size: 1.3em;
+  }
+  #contact form {
+    width: 80%;
+  }
+}
+
 /* media query designed to make styling look nice below 800 pixels wide. not designed to go below 500px wide */
 @media (max-width: 839px) {
   /* Header and Footer */
@@ -718,16 +726,13 @@
   .dialog {
     width: 70%;
   }
-
-  /* Contact Page */
-
 }
 
 @media (max-width: 699px) {
   /* Header and Footer */
   #header img {
     height: 50px;
-    margin-top: 25px;
+    margin-top: 20px;
   }
 
   /* About Page */
@@ -755,4 +760,36 @@
   }
 
   /* Publications Page */
+  .publication img.image-with-modal {
+    width: 40%;
+    height: 300px;
+    margin: auto;
+    display: block;
+  }
+
+  .publication div.publication-description {
+    width: 80%;
+    display: block;
+    margin: 5px auto;
+  }
+  .publication p {
+    font-size: 1.1em;
+  }
+
+  /* Contact Page */
+  #contact p {
+    font-size: 1.1em;
+  }
+  #contact form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 599px) {
+  #contact form {
+    height: 500px;
+  }
+  #contact #form-message textarea {
+    margin-left: 0;
+  }
 }
