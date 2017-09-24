@@ -659,6 +659,7 @@
 
 /* media query to make styling look nice between 800 and 1100 pixels wide */
 @media (min-width: 800px) and (max-width: 1100px) {
+  /* About Page */
   .testimonial img {
     height: 140px;
     width: 140px;
@@ -674,6 +675,9 @@
 
 /* media query designed to make styling look nice below 800 pixels wide. not designed to go below 500px wide */
 @media (max-width: 799px) {
+  /* Header and Footer */
+  
+  /* About Page */
   .testimonial img {
     height: 90px;
     width: 90px;
@@ -684,5 +688,18 @@
   }
   .dialog {
     width: 70%;
+  }
+}
+
+@media (max-width: 699px) {
+  /* About Page */
+  #intro img {
+    float: none;
+  }
+  #intro p {
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 1.3em;
+    line-height: 1.3;
   }
 }
