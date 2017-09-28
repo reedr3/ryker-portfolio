@@ -45,8 +45,8 @@ var Projects = React.createClass({
           liveApp="http://pensieve.herokuapp.com/"
           liveAppName="Heroku App"
           skills={["Ruby", "Rails", "JavaScript", "React", "HTML5", "CSS"]}
-          logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21740033_10156505665333998_7377973128175305145_n.jpg?oh=32ddbe76d35f0e1f6e5a9f5508edf23e&oe=5A5761B7"
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
+          logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/22046456_10156578963083998_9052620055088221328_n.jpg?oh=04f65c9c3ae3657aa5df162015bb6411&oe=5A8007B2"
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/22050279_10156578935633998_3362974870647264956_n.jpg?oh=cc245460d811eebd083705ab6d40659d&oe=5A806096", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
           imageCaptions={["", "The home page.", "The view for a particular category.", "The view for adding a new task."]}
         />
 
