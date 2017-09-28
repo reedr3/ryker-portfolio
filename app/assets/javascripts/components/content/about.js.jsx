@@ -34,6 +34,14 @@ var About = React.createClass({
             linkedin="https://www.linkedin.com/in/jimlengel/"
             textSide="right"
           />
+
+          <Testimonial
+            name="Frank Aiello"
+            dialog="Ryker is a talented thinker who uses his sharp analytic skills to solve intricate problems. I worked with Ryker on building a web application that required him and me to research and implement a feature that used an alternative type of computer communications protocol that we were both previously unfamiliar with. Ryker and I spent days rethinking everything we had learned about how the Internet works, and in the process he demonstrated to me how to reason through novel problems by breaking them down into smaller parts and rigorously testing potential solutions to them. Ryker showed me through example how to explain structurally complex ideas to people on our team, and to this day I often recall the eloquence with which Ryker deconstructed issues in order to communicate them with people. His ability to do so makes him a valuable member of any team, not exclusively as a software engineer, but as a refreshingly unique thinker eager to take on problems through the lens of emerging alternatives."
+            headshot="https://media.licdn.com/media/AAEAAQAAAAAAAAhDAAAAJDBiMjVmYWFhLWM3NzItNDE3Yy1hY2QyLWZjZGNiM2YyMGI3OA.jpg"
+            linkedin="https://www.linkedin.com/in/frank-aiello-eyeyellow/"
+            textSide="left"
+          />
         </div>
 
       </div>
