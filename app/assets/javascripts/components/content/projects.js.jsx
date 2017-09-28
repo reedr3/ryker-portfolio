@@ -40,7 +40,7 @@ var Projects = React.createClass({
 
         <Project
           title="Pensieve"
-          description="I created Pensieve, a web app designed to aid and increase productivity by allowing users to efficiently compartmentalize and sort through tasks."
+          description="I created Pensieve, a web app designed to aid and increase productivity by allowing users to efficiently compartmentalize and sort through tasks. This app is in the final stage of testing and development and will be live in a few days!"
           github="https://github.com/reedr3/pensieve"
           liveApp="http://pensieve.herokuapp.com/"
           liveAppName="Heroku App"
