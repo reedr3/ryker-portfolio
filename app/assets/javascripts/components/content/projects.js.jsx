@@ -43,11 +43,11 @@ var Projects = React.createClass({
           description="I created Pensieve, a web app designed to aid and increase productivity by allowing users to efficiently compartmentalize and sort through tasks. This app is in the final stage of testing and development and will be live in a few days!"
           github="https://github.com/reedr3/pensieve"
           liveApp="http://pensieve.herokuapp.com/"
-          liveAppName="Heroku App"
+          liveAppName="Coming Soon"
           skills={["Ruby", "Rails", "JavaScript", "React", "HTML5", "CSS"]}
           logoImage="https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/22046456_10156578963083998_9052620055088221328_n.jpg?oh=04f65c9c3ae3657aa5df162015bb6411&oe=5A8007B2"
-          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/22050279_10156578935633998_3362974870647264956_n.jpg?oh=cc245460d811eebd083705ab6d40659d&oe=5A806096", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21728470_10156505665338998_8132441163107722243_n.jpg?oh=2ce973a399f9fdd30d898b435b616e99&oe=5A596B40"]}
-          imageCaptions={["", "The home page.", "The view for a particular category.", "The view for adding a new task."]}
+          modalImages={["https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/22050279_10156578935633998_3362974870647264956_n.jpg?oh=cc245460d811eebd083705ab6d40659d&oe=5A806096", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/22050341_10156579170933998_6276083591984200389_n.jpg?oh=b637f84f80e02c77ecd720be04fbc3ed&oe=5A5166DE", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/21768227_10156579188978998_4231653860548863983_n.jpg?oh=eb8be4efc45c26269f7bcc8bd5b5e074&oe=5A4755B0", "https://scontent.fbed1-1.fna.fbcdn.net/v/t1.0-9/22007935_10156579170938998_8468072473807859275_n.jpg?oh=a0cfdf6bbbcf8427d4b87effdaec4ea6&oe=5A572F7E"]}
+          imageCaptions={["", "The home page for a user, displaying their categories of tasks.", "The view for a particular category of tasks. Tasks organized by difficulty.", "The view for adding a new task."]}
         />
 
         <Project
